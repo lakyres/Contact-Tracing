@@ -28,13 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.menu = new System.Windows.Forms.Panel();
+            this.SuspendLayout();
+            // 
+            // menu
+            // 
+            this.menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(89)))), ((int)(((byte)(175)))));
+            this.menu.Dock = System.Windows.Forms.DockStyle.Right;
+            this.menu.Location = new System.Drawing.Point(698, 0);
+            this.menu.Name = "menu";
+            this.menu.Size = new System.Drawing.Size(230, 540);
+            this.menu.TabIndex = 0;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(928, 540);
+            this.Controls.Add(this.menu);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel menu;
     }
 }
 
