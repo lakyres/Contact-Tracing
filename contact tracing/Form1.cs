@@ -11,10 +11,10 @@ using WMPLib;
 
 namespace contact_tracing
 {
-    public partial class Form1 : Form
+    public partial class contraceform : Form
     {
         WindowsMediaPlayer player = new WindowsMediaPlayer();
-        public Form1()
+        public contraceform()
         {
             InitializeComponent();
             player.URL = "";
