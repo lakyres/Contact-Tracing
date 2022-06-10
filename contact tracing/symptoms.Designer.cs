@@ -28,130 +28,130 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.fever = new System.Windows.Forms.CheckBox();
+            this.runnynose = new System.Windows.Forms.CheckBox();
+            this.fatigue = new System.Windows.Forms.CheckBox();
+            this.shortness = new System.Windows.Forms.CheckBox();
+            this.lose = new System.Windows.Forms.CheckBox();
+            this.sore = new System.Windows.Forms.CheckBox();
+            this.cough = new System.Windows.Forms.CheckBox();
+            this.nosymp = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
-            // checkBox1
+            // fever
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.ForeColor = System.Drawing.Color.Transparent;
-            this.checkBox1.Location = new System.Drawing.Point(96, 101);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(77, 28);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Fever";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.fever.AutoSize = true;
+            this.fever.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fever.ForeColor = System.Drawing.Color.Transparent;
+            this.fever.Location = new System.Drawing.Point(96, 101);
+            this.fever.Name = "fever";
+            this.fever.Size = new System.Drawing.Size(77, 28);
+            this.fever.TabIndex = 0;
+            this.fever.Text = "Fever";
+            this.fever.UseVisualStyleBackColor = true;
+            this.fever.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // checkBox2
+            // runnynose
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.ForeColor = System.Drawing.Color.Transparent;
-            this.checkBox2.Location = new System.Drawing.Point(96, 145);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(124, 28);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "Runny nose";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.runnynose.AutoSize = true;
+            this.runnynose.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.runnynose.ForeColor = System.Drawing.Color.Transparent;
+            this.runnynose.Location = new System.Drawing.Point(96, 145);
+            this.runnynose.Name = "runnynose";
+            this.runnynose.Size = new System.Drawing.Size(124, 28);
+            this.runnynose.TabIndex = 1;
+            this.runnynose.Text = "Runny nose";
+            this.runnynose.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // fatigue
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.ForeColor = System.Drawing.Color.Transparent;
-            this.checkBox3.Location = new System.Drawing.Point(96, 188);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(93, 28);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "Fatigue";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
+            this.fatigue.AutoSize = true;
+            this.fatigue.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fatigue.ForeColor = System.Drawing.Color.Transparent;
+            this.fatigue.Location = new System.Drawing.Point(96, 188);
+            this.fatigue.Name = "fatigue";
+            this.fatigue.Size = new System.Drawing.Size(93, 28);
+            this.fatigue.TabIndex = 2;
+            this.fatigue.Text = "Fatigue";
+            this.fatigue.UseVisualStyleBackColor = true;
+            this.fatigue.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
-            // checkBox4
+            // shortness
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.ForeColor = System.Drawing.Color.White;
-            this.checkBox4.Location = new System.Drawing.Point(96, 232);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(197, 28);
-            this.checkBox4.TabIndex = 3;
-            this.checkBox4.Text = "Shortness of breathe";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.shortness.AutoSize = true;
+            this.shortness.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.shortness.ForeColor = System.Drawing.Color.White;
+            this.shortness.Location = new System.Drawing.Point(96, 232);
+            this.shortness.Name = "shortness";
+            this.shortness.Size = new System.Drawing.Size(197, 28);
+            this.shortness.TabIndex = 3;
+            this.shortness.Text = "Shortness of breathe";
+            this.shortness.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // lose
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.ForeColor = System.Drawing.Color.Transparent;
-            this.checkBox5.Location = new System.Drawing.Point(323, 101);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(189, 28);
-            this.checkBox5.TabIndex = 4;
-            this.checkBox5.Text = "Lose of taste/smell";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
+            this.lose.AutoSize = true;
+            this.lose.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lose.ForeColor = System.Drawing.Color.Transparent;
+            this.lose.Location = new System.Drawing.Point(323, 101);
+            this.lose.Name = "lose";
+            this.lose.Size = new System.Drawing.Size(189, 28);
+            this.lose.TabIndex = 4;
+            this.lose.Text = "Lose of taste/smell";
+            this.lose.UseVisualStyleBackColor = true;
+            this.lose.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
             // 
-            // checkBox6
+            // sore
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox6.ForeColor = System.Drawing.Color.Transparent;
-            this.checkBox6.Location = new System.Drawing.Point(323, 145);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(122, 28);
-            this.checkBox6.TabIndex = 5;
-            this.checkBox6.Text = "Sore throat";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            this.checkBox6.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
+            this.sore.AutoSize = true;
+            this.sore.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sore.ForeColor = System.Drawing.Color.Transparent;
+            this.sore.Location = new System.Drawing.Point(323, 145);
+            this.sore.Name = "sore";
+            this.sore.Size = new System.Drawing.Size(122, 28);
+            this.sore.TabIndex = 5;
+            this.sore.Text = "Sore throat";
+            this.sore.UseVisualStyleBackColor = true;
+            this.sore.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
             // 
-            // checkBox7
+            // cough
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox7.ForeColor = System.Drawing.SystemColors.Control;
-            this.checkBox7.Location = new System.Drawing.Point(323, 188);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(83, 28);
-            this.checkBox7.TabIndex = 6;
-            this.checkBox7.Text = "Cough";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            this.checkBox7.CheckedChanged += new System.EventHandler(this.checkBox7_CheckedChanged);
+            this.cough.AutoSize = true;
+            this.cough.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cough.ForeColor = System.Drawing.SystemColors.Control;
+            this.cough.Location = new System.Drawing.Point(323, 188);
+            this.cough.Name = "cough";
+            this.cough.Size = new System.Drawing.Size(83, 28);
+            this.cough.TabIndex = 6;
+            this.cough.Text = "Cough";
+            this.cough.UseVisualStyleBackColor = true;
+            this.cough.CheckedChanged += new System.EventHandler(this.checkBox7_CheckedChanged);
             // 
-            // checkBox8
+            // nosymp
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox8.ForeColor = System.Drawing.Color.White;
-            this.checkBox8.Location = new System.Drawing.Point(323, 232);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(143, 28);
-            this.checkBox8.TabIndex = 7;
-            this.checkBox8.Text = "No symptoms";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.nosymp.AutoSize = true;
+            this.nosymp.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nosymp.ForeColor = System.Drawing.Color.White;
+            this.nosymp.Location = new System.Drawing.Point(323, 232);
+            this.nosymp.Name = "nosymp";
+            this.nosymp.Size = new System.Drawing.Size(143, 28);
+            this.nosymp.TabIndex = 7;
+            this.nosymp.Text = "No symptoms";
+            this.nosymp.UseVisualStyleBackColor = true;
             // 
             // symptoms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumPurple;
-            this.Controls.Add(this.checkBox8);
-            this.Controls.Add(this.checkBox7);
-            this.Controls.Add(this.checkBox6);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.nosymp);
+            this.Controls.Add(this.cough);
+            this.Controls.Add(this.sore);
+            this.Controls.Add(this.lose);
+            this.Controls.Add(this.shortness);
+            this.Controls.Add(this.fatigue);
+            this.Controls.Add(this.runnynose);
+            this.Controls.Add(this.fever);
             this.Name = "symptoms";
             this.Size = new System.Drawing.Size(595, 474);
             this.Load += new System.EventHandler(this.symptoms_Load);
@@ -162,13 +162,13 @@
 
         #endregion
 
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.CheckBox fever;
+        private System.Windows.Forms.CheckBox runnynose;
+        private System.Windows.Forms.CheckBox fatigue;
+        private System.Windows.Forms.CheckBox shortness;
+        private System.Windows.Forms.CheckBox lose;
+        private System.Windows.Forms.CheckBox sore;
+        private System.Windows.Forms.CheckBox cough;
+        private System.Windows.Forms.CheckBox nosymp;
     }
 }

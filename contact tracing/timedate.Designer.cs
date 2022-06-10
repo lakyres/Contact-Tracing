@@ -28,82 +28,96 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.txt_date = new System.Windows.Forms.TextBox();
+            this.txt_checkin = new System.Windows.Forms.TextBox();
+            this.txt_checkout = new System.Windows.Forms.TextBox();
+            this.lbl_date = new System.Windows.Forms.Label();
+            this.lbl_checkin = new System.Windows.Forms.Label();
+            this.lbl_checkout = new System.Windows.Forms.Label();
+            this.submit_btn2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txt_date
             // 
-            this.textBox1.Location = new System.Drawing.Point(293, 131);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
+            this.txt_date.Location = new System.Drawing.Point(293, 131);
+            this.txt_date.Name = "txt_date";
+            this.txt_date.Size = new System.Drawing.Size(100, 20);
+            this.txt_date.TabIndex = 0;
             // 
-            // textBox2
+            // txt_checkin
             // 
-            this.textBox2.Location = new System.Drawing.Point(293, 186);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
+            this.txt_checkin.Location = new System.Drawing.Point(293, 186);
+            this.txt_checkin.Name = "txt_checkin";
+            this.txt_checkin.Size = new System.Drawing.Size(100, 20);
+            this.txt_checkin.TabIndex = 1;
             // 
-            // textBox3
+            // txt_checkout
             // 
-            this.textBox3.Location = new System.Drawing.Point(293, 245);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 2;
+            this.txt_checkout.Location = new System.Drawing.Point(293, 245);
+            this.txt_checkout.Name = "txt_checkout";
+            this.txt_checkout.Size = new System.Drawing.Size(100, 20);
+            this.txt_checkout.TabIndex = 2;
             // 
-            // label1
+            // lbl_date
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(133, 131);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(154, 19);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Date (mm/dd/yyyy)";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lbl_date.AutoSize = true;
+            this.lbl_date.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_date.ForeColor = System.Drawing.Color.White;
+            this.lbl_date.Location = new System.Drawing.Point(133, 131);
+            this.lbl_date.Name = "lbl_date";
+            this.lbl_date.Size = new System.Drawing.Size(154, 19);
+            this.lbl_date.TabIndex = 3;
+            this.lbl_date.Text = "Date (mm/dd/yyyy)";
+            this.lbl_date.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // lbl_checkin
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(214, 186);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 19);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Check In";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.lbl_checkin.AutoSize = true;
+            this.lbl_checkin.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_checkin.ForeColor = System.Drawing.Color.White;
+            this.lbl_checkin.Location = new System.Drawing.Point(214, 186);
+            this.lbl_checkin.Name = "lbl_checkin";
+            this.lbl_checkin.Size = new System.Drawing.Size(73, 19);
+            this.lbl_checkin.TabIndex = 4;
+            this.lbl_checkin.Text = "Check In";
+            this.lbl_checkin.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // lbl_checkout
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(202, 245);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 19);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Check Out";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.lbl_checkout.AutoSize = true;
+            this.lbl_checkout.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_checkout.ForeColor = System.Drawing.Color.White;
+            this.lbl_checkout.Location = new System.Drawing.Point(202, 245);
+            this.lbl_checkout.Name = "lbl_checkout";
+            this.lbl_checkout.Size = new System.Drawing.Size(85, 19);
+            this.lbl_checkout.TabIndex = 5;
+            this.lbl_checkout.Text = "Check Out";
+            this.lbl_checkout.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // submit_btn2
+            // 
+            this.submit_btn2.BackColor = System.Drawing.Color.MediumOrchid;
+            this.submit_btn2.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submit_btn2.ForeColor = System.Drawing.Color.White;
+            this.submit_btn2.Location = new System.Drawing.Point(403, 287);
+            this.submit_btn2.Name = "submit_btn2";
+            this.submit_btn2.Size = new System.Drawing.Size(89, 38);
+            this.submit_btn2.TabIndex = 6;
+            this.submit_btn2.Text = "Submit";
+            this.submit_btn2.UseVisualStyleBackColor = false;
             // 
             // timedate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.submit_btn2);
+            this.Controls.Add(this.lbl_checkout);
+            this.Controls.Add(this.lbl_checkin);
+            this.Controls.Add(this.lbl_date);
+            this.Controls.Add(this.txt_checkout);
+            this.Controls.Add(this.txt_checkin);
+            this.Controls.Add(this.txt_date);
             this.Name = "timedate";
             this.Size = new System.Drawing.Size(688, 486);
             this.ResumeLayout(false);
@@ -113,11 +127,12 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txt_date;
+        private System.Windows.Forms.TextBox txt_checkin;
+        private System.Windows.Forms.TextBox txt_checkout;
+        private System.Windows.Forms.Label lbl_date;
+        private System.Windows.Forms.Label lbl_checkin;
+        private System.Windows.Forms.Label lbl_checkout;
+        private System.Windows.Forms.Button submit_btn2;
     }
 }

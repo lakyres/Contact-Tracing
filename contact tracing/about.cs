@@ -26,5 +26,10 @@ namespace contact_tracing
         {
 
         }
+
+        private void about_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

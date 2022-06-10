@@ -46,6 +46,7 @@
             this.lbl_email = new System.Windows.Forms.Label();
             this.lbl_address = new System.Windows.Forms.Label();
             this.txt_address = new System.Windows.Forms.TextBox();
+            this.submit_btn1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txt_firstname
@@ -219,11 +220,25 @@
             this.txt_address.Size = new System.Drawing.Size(406, 20);
             this.txt_address.TabIndex = 17;
             // 
+            // submit_btn1
+            // 
+            this.submit_btn1.BackColor = System.Drawing.Color.Thistle;
+            this.submit_btn1.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submit_btn1.ForeColor = System.Drawing.Color.White;
+            this.submit_btn1.Location = new System.Drawing.Point(452, 420);
+            this.submit_btn1.Name = "submit_btn1";
+            this.submit_btn1.Size = new System.Drawing.Size(105, 41);
+            this.submit_btn1.TabIndex = 18;
+            this.submit_btn1.Text = "Submit";
+            this.submit_btn1.UseVisualStyleBackColor = false;
+            this.submit_btn1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // personal_info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(144)))), ((int)(((byte)(200)))));
+            this.Controls.Add(this.submit_btn1);
             this.Controls.Add(this.txt_address);
             this.Controls.Add(this.lbl_address);
             this.Controls.Add(this.lbl_email);
@@ -269,5 +284,6 @@
         private System.Windows.Forms.Label lbl_email;
         private System.Windows.Forms.Label lbl_address;
         private System.Windows.Forms.TextBox txt_address;
+        private System.Windows.Forms.Button submit_btn1;
     }
 }

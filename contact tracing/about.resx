@@ -117,14 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label6.Text" xml:space="preserve">
+  <data name="about_txt6.Text" xml:space="preserve">
     <value>* Notifying people who have come into close contact with someone diagnosed with 
 COVID-19 and helping them determine what steps to take, depending on their 
 vaccination status and history of prior infection with SARS-CoV-2 (the virus that 
 causes COVID-19). Follow-up may include testing, quarantine, and wearing a 
 well-fitted mask.</value>
   </data>
-  <data name="label7.Text" xml:space="preserve">
+  <data name="about_txt7.Text" xml:space="preserve">
     <value>* Discussions with public health workers are confidential. This means that your 
 personal and medical information will be kept private and only shared with 
 those who may need to know, like your healthcare provider.</value>
