@@ -36,6 +36,7 @@
             this.sore = new System.Windows.Forms.CheckBox();
             this.cough = new System.Windows.Forms.CheckBox();
             this.nosymp = new System.Windows.Forms.CheckBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // fever
@@ -62,6 +63,7 @@
             this.runnynose.TabIndex = 1;
             this.runnynose.Text = "Runny nose";
             this.runnynose.UseVisualStyleBackColor = true;
+            this.runnynose.CheckedChanged += new System.EventHandler(this.runnynose_CheckedChanged);
             // 
             // fatigue
             // 
@@ -83,10 +85,11 @@
             this.shortness.ForeColor = System.Drawing.Color.White;
             this.shortness.Location = new System.Drawing.Point(96, 232);
             this.shortness.Name = "shortness";
-            this.shortness.Size = new System.Drawing.Size(197, 28);
+            this.shortness.Size = new System.Drawing.Size(188, 28);
             this.shortness.TabIndex = 3;
-            this.shortness.Text = "Shortness of breathe";
+            this.shortness.Text = "Shortness of breath";
             this.shortness.UseVisualStyleBackColor = true;
+            this.shortness.CheckedChanged += new System.EventHandler(this.shortness_CheckedChanged);
             // 
             // lose
             // 
@@ -138,12 +141,26 @@
             this.nosymp.TabIndex = 7;
             this.nosymp.Text = "No symptoms";
             this.nosymp.UseVisualStyleBackColor = true;
+            this.nosymp.CheckedChanged += new System.EventHandler(this.nosymp_CheckedChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Bebas Neue", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(71, 46);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(453, 35);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Put a check if you have the given symptom/s.";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // symptoms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumPurple;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.nosymp);
             this.Controls.Add(this.cough);
             this.Controls.Add(this.sore);
@@ -170,5 +187,6 @@
         private System.Windows.Forms.CheckBox sore;
         private System.Windows.Forms.CheckBox cough;
         private System.Windows.Forms.CheckBox nosymp;
+        private System.Windows.Forms.Label label1;
     }
 }

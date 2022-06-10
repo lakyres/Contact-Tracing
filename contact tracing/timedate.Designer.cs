@@ -105,6 +105,7 @@
             this.submit_btn2.TabIndex = 6;
             this.submit_btn2.Text = "Submit";
             this.submit_btn2.UseVisualStyleBackColor = false;
+            this.submit_btn2.Click += new System.EventHandler(this.submit_btn2_Click);
             // 
             // timedate
             // 

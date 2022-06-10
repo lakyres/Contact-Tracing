@@ -66,6 +66,8 @@ namespace contact_tracing
         private void button1_Click(object sender, EventArgs e)
         {
             StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\personal info.txt", true);
+            file.WriteLine("");
+            file.WriteLine("Personal Information");
             file.WriteLine("First Name: " + txt_firstname.Text );
             file.WriteLine("Middle Name: " + txt_middlename.Text);
             file.WriteLine("Last Name: " + txt_lastname.Text);
