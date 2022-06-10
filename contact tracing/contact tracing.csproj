@@ -52,10 +52,37 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="personal_info.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="personal_info.Designer.cs">
+      <DependentUpon>personal_info.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="symptoms.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="symptoms.Designer.cs">
+      <DependentUpon>symptoms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="timedate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="timedate.Designer.cs">
+      <DependentUpon>timedate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personal_info.resx">
+      <DependentUpon>personal_info.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +93,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="symptoms.resx">
+      <DependentUpon>symptoms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="timedate.resx">
+      <DependentUpon>timedate.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

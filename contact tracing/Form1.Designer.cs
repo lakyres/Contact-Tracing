@@ -36,6 +36,9 @@
             this.menu_logo = new System.Windows.Forms.Panel();
             this.menu_top = new System.Windows.Forms.Panel();
             this.btn_x = new System.Windows.Forms.Button();
+            this.symptoms1 = new contact_tracing.symptoms();
+            this.timedate1 = new contact_tracing.timedate();
+            this.personal_info1 = new contact_tracing.personal_info();
             this.menu.SuspendLayout();
             this.menu_top.SuspendLayout();
             this.SuspendLayout();
@@ -48,7 +51,7 @@
             this.menu.Controls.Add(this.menu_btn1);
             this.menu.Controls.Add(this.menu_logo);
             this.menu.Dock = System.Windows.Forms.DockStyle.Right;
-            this.menu.Location = new System.Drawing.Point(590, 0);
+            this.menu.Location = new System.Drawing.Point(644, 0);
             this.menu.Name = "menu";
             this.menu.Size = new System.Drawing.Size(230, 540);
             this.menu.TabIndex = 0;
@@ -70,6 +73,7 @@
             this.menu_btn3.Text = "   Date/Time";
             this.menu_btn3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.menu_btn3.UseVisualStyleBackColor = true;
+            this.menu_btn3.Click += new System.EventHandler(this.menu_btn3_Click);
             // 
             // menu_btn2
             // 
@@ -88,6 +92,7 @@
             this.menu_btn2.Text = " Symptoms";
             this.menu_btn2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.menu_btn2.UseVisualStyleBackColor = true;
+            this.menu_btn2.Click += new System.EventHandler(this.menu_btn2_Click);
             // 
             // menu_btn1
             // 
@@ -127,30 +132,58 @@
             this.menu_top.Dock = System.Windows.Forms.DockStyle.Top;
             this.menu_top.Location = new System.Drawing.Point(0, 0);
             this.menu_top.Name = "menu_top";
-            this.menu_top.Size = new System.Drawing.Size(590, 27);
+            this.menu_top.Size = new System.Drawing.Size(644, 27);
             this.menu_top.TabIndex = 1;
             // 
             // btn_x
             // 
-            this.btn_x.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(144)))), ((int)(((byte)(200)))));
+            this.btn_x.BackColor = System.Drawing.Color.Plum;
             this.btn_x.Dock = System.Windows.Forms.DockStyle.Right;
             this.btn_x.FlatAppearance.BorderSize = 0;
             this.btn_x.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_x.Font = new System.Drawing.Font("Bebas", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_x.ForeColor = System.Drawing.Color.Snow;
             this.btn_x.Image = ((System.Drawing.Image)(resources.GetObject("btn_x.Image")));
-            this.btn_x.Location = new System.Drawing.Point(555, 0);
+            this.btn_x.Location = new System.Drawing.Point(609, 0);
             this.btn_x.Name = "btn_x";
             this.btn_x.Size = new System.Drawing.Size(35, 27);
             this.btn_x.TabIndex = 2;
             this.btn_x.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btn_x.UseVisualStyleBackColor = false;
+            this.btn_x.Click += new System.EventHandler(this.btn_x_Click);
+            // 
+            // symptoms1
+            // 
+            this.symptoms1.BackColor = System.Drawing.Color.MediumPurple;
+            this.symptoms1.Location = new System.Drawing.Point(0, 24);
+            this.symptoms1.Name = "symptoms1";
+            this.symptoms1.Size = new System.Drawing.Size(644, 516);
+            this.symptoms1.TabIndex = 4;
+            // 
+            // timedate1
+            // 
+            this.timedate1.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.timedate1.Location = new System.Drawing.Point(0, 24);
+            this.timedate1.Name = "timedate1";
+            this.timedate1.Size = new System.Drawing.Size(644, 516);
+            this.timedate1.TabIndex = 3;
+            // 
+            // personal_info1
+            // 
+            this.personal_info1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(144)))), ((int)(((byte)(200)))));
+            this.personal_info1.Location = new System.Drawing.Point(0, 24);
+            this.personal_info1.Name = "personal_info1";
+            this.personal_info1.Size = new System.Drawing.Size(644, 516);
+            this.personal_info1.TabIndex = 2;
             // 
             // contraceform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(820, 540);
+            this.ClientSize = new System.Drawing.Size(874, 540);
+            this.Controls.Add(this.symptoms1);
+            this.Controls.Add(this.timedate1);
+            this.Controls.Add(this.personal_info1);
             this.Controls.Add(this.menu_top);
             this.Controls.Add(this.menu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -172,6 +205,9 @@
         private System.Windows.Forms.Panel menu_logo;
         private System.Windows.Forms.Panel menu_top;
         private System.Windows.Forms.Button btn_x;
+        private personal_info personal_info1;
+        private timedate timedate1;
+        private symptoms symptoms1;
     }
 }
 

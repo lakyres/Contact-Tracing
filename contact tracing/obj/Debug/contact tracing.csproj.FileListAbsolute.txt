@@ -1,0 +1,19 @@
+C:\Users\angel\source\repos\contact tracing\contact tracing\bin\Debug\contact tracing.exe.config
+C:\Users\angel\source\repos\contact tracing\contact tracing\bin\Debug\contact tracing.exe
+C:\Users\angel\source\repos\contact tracing\contact tracing\bin\Debug\contact tracing.pdb
+C:\Users\angel\source\repos\contact tracing\contact tracing\bin\Debug\Interop.WMPLib.dll
+C:\Users\angel\source\repos\contact tracing\contact tracing\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact tracing.csproj.AssemblyReference.cache
+C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact tracing.csproj.SuggestedBindingRedirects.cache
+C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\Interop.WMPLib.dll
+C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact tracing.csproj.ResolveComReference.cache
+C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact_tracing.contraceform.resources
+C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact_tracing.personal_info.resources
+C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact_tracing.Properties.Resources.resources
+C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact_tracing.symptoms.resources
+C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact_tracing.timedate.resources
+C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact tracing.csproj.GenerateResource.cache
+C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact tracing.csproj.CoreCompileInputs.cache
+C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact tracing.exe
+C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact tracing.pdb
