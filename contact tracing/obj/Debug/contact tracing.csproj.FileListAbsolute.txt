@@ -17,3 +17,4 @@ C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact tr
 C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact tracing.csproj.CoreCompileInputs.cache
 C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact tracing.exe
 C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact tracing.pdb
+C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact_tracing.about.resources
