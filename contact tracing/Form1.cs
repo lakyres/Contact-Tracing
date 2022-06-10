@@ -24,5 +24,15 @@ namespace contact_tracing
         {
             player.controls.play();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menu_btn1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
