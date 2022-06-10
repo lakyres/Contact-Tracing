@@ -1,3 +1,21 @@
 First Name: 1
 Middle Name: 2
 Last Name: 3
+First Name: kyla
+Middle Name: naranjo
+Last Name: marjes
+Date of Birth: October 11, 2002
+Age: 19
+Sex: female
+Address: olongapo city
+Contact: 09285797337
+Email: kylamarjes11@gmail.com
+First Name: kyla
+Middle Name: naranjo
+Last Name: marjes
+Date of Birth: October 11, 2002
+Age: 19
+Sex: female
+Address: olongapo city
+Contact: 09285797337
+Email: kylamarjes11@gmail.com

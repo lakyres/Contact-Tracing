@@ -69,12 +69,12 @@ namespace contact_tracing
             file.WriteLine("First Name: " + txt_firstname.Text );
             file.WriteLine("Middle Name: " + txt_middlename.Text);
             file.WriteLine("Last Name: " + txt_lastname.Text);
-            file.WriteLine("Last Name: " + txt_birthdate.Text);
-            file.WriteLine("Last Name: " + txt_age.Text);
-            file.WriteLine("Last Name: " + txt_lastname.Text);
-            file.WriteLine("Last Name: " + txt_lastname.Text);
-            file.WriteLine("Last Name: " + txt_lastname.Text);
-            file.WriteLine("Last Name: " + txt_lastname.Text);
+            file.WriteLine("Date of Birth: " + txt_birthdate.Text);
+            file.WriteLine("Age: " + txt_age.Text);
+            file.WriteLine("Sex: " + txt_sex.Text);
+            file.WriteLine("Address: " + txt_address.Text);
+            file.WriteLine("Contact: " + txt_contactnum.Text);
+            file.WriteLine("Email: " + txt_email.Text);
 
             file.Close();
 
