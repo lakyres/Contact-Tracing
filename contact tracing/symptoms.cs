@@ -45,7 +45,7 @@ namespace contact_tracing
         {
             StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
             file.WriteLine("");
-            file.WriteLine("Sore throat: Yes");
+            file.WriteLine("Sore throat: No");
 
             file.Close();
         }
@@ -64,15 +64,6 @@ namespace contact_tracing
             StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
             file.WriteLine("");
             file.WriteLine("Lose of taste/smell: Yes");
-
-            file.Close();
-        }
-
-        private void nosymp_CheckedChanged(object sender, EventArgs e)
-        {
-            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
-            file.WriteLine("");
-            file.WriteLine("No symptoms: Yes");
 
             file.Close();
         }
@@ -102,7 +93,65 @@ namespace contact_tracing
 
         private void checkBox1_CheckedChanged_1(object sender, EventArgs e)
         {
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
+            file.WriteLine("");
+            file.WriteLine("Fever: No");
 
+            file.Close();
+        }
+
+        private void lose_no_CheckedChanged(object sender, EventArgs e)
+        {
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
+            file.WriteLine("");
+            file.WriteLine("Lose of taste/smell: No");
+
+            file.Close();
+        }
+
+        private void runnynose_no_CheckedChanged(object sender, EventArgs e)
+        {
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
+            file.WriteLine("");
+            file.WriteLine("Runny nose: No");
+
+            file.Close();
+        }
+
+        private void fatigue_no_CheckedChanged(object sender, EventArgs e)
+        {
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
+            file.WriteLine("");
+            file.WriteLine("Fatigue: No");
+
+            file.Close();
+        }
+
+        private void shortness_no_CheckedChanged(object sender, EventArgs e)
+        {
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
+            file.WriteLine("");
+            file.WriteLine("Shortness of breath: No");
+
+            file.Close();
+        }
+
+        private void sore_yes_CheckedChanged(object sender, EventArgs e)
+        {
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
+            file.WriteLine("");
+            file.WriteLine("Sore throat: Yes");
+
+            file.Close();
+        }
+
+        private void cough_no_CheckedChanged(object sender, EventArgs e)
+        {
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
+            file.WriteLine("");
+            file.WriteLine("Cough: No");
+
+            file.Close();
         }
     }
 }
