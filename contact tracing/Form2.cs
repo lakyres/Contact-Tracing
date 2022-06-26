@@ -28,5 +28,15 @@ namespace contact_tracing
             showrecs allrecs = new showrecs();
             allrecs.ShowDialog();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

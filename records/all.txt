@@ -45,3 +45,9 @@ Fever: Yes
 Runny nose: Yes
 
 Lose of taste/smell: Yes
+
+Date: Monday, June 27, 2022
+Time Check In: 10:00PM
+Time Check Out: 12:00AM
+
+Fever: Yes

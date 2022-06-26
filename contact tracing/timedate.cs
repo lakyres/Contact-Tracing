@@ -35,13 +35,15 @@ namespace contact_tracing
 
         private void submit_btn2_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\personal info.txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
             file.WriteLine("");
-            file.WriteLine("Date: " + txt_date.Text);
-            file.WriteLine("Check In: " + txt_checkin.Text);
-            file.WriteLine("Check Out: " + txt_checkout.Text);
+            file.WriteLine("Date: " + date.Text);
+            file.WriteLine("Time Check In: " + txt_checkin.Text);
+            file.WriteLine("Time Check Out: " + txt_checkout.Text);
 
             file.Close();
         }
+
+        
     }
 }

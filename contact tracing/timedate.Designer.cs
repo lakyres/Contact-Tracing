@@ -28,21 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txt_date = new System.Windows.Forms.TextBox();
             this.txt_checkin = new System.Windows.Forms.TextBox();
             this.txt_checkout = new System.Windows.Forms.TextBox();
             this.lbl_date = new System.Windows.Forms.Label();
             this.lbl_checkin = new System.Windows.Forms.Label();
             this.lbl_checkout = new System.Windows.Forms.Label();
             this.submit_btn2 = new System.Windows.Forms.Button();
+            this.date = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
-            // 
-            // txt_date
-            // 
-            this.txt_date.Location = new System.Drawing.Point(293, 131);
-            this.txt_date.Name = "txt_date";
-            this.txt_date.Size = new System.Drawing.Size(100, 20);
-            this.txt_date.TabIndex = 0;
             // 
             // txt_checkin
             // 
@@ -63,11 +56,11 @@
             this.lbl_date.AutoSize = true;
             this.lbl_date.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_date.ForeColor = System.Drawing.Color.White;
-            this.lbl_date.Location = new System.Drawing.Point(133, 131);
+            this.lbl_date.Location = new System.Drawing.Point(243, 128);
             this.lbl_date.Name = "lbl_date";
-            this.lbl_date.Size = new System.Drawing.Size(154, 19);
+            this.lbl_date.Size = new System.Drawing.Size(44, 19);
             this.lbl_date.TabIndex = 3;
-            this.lbl_date.Text = "Date (mm/dd/yyyy)";
+            this.lbl_date.Text = "Date";
             this.lbl_date.Click += new System.EventHandler(this.label1_Click);
             // 
             // lbl_checkin
@@ -75,11 +68,11 @@
             this.lbl_checkin.AutoSize = true;
             this.lbl_checkin.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_checkin.ForeColor = System.Drawing.Color.White;
-            this.lbl_checkin.Location = new System.Drawing.Point(214, 186);
+            this.lbl_checkin.Location = new System.Drawing.Point(172, 186);
             this.lbl_checkin.Name = "lbl_checkin";
-            this.lbl_checkin.Size = new System.Drawing.Size(73, 19);
+            this.lbl_checkin.Size = new System.Drawing.Size(115, 19);
             this.lbl_checkin.TabIndex = 4;
-            this.lbl_checkin.Text = "Check In";
+            this.lbl_checkin.Text = "Time Check In";
             this.lbl_checkin.Click += new System.EventHandler(this.label2_Click);
             // 
             // lbl_checkout
@@ -87,11 +80,11 @@
             this.lbl_checkout.AutoSize = true;
             this.lbl_checkout.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_checkout.ForeColor = System.Drawing.Color.White;
-            this.lbl_checkout.Location = new System.Drawing.Point(202, 245);
+            this.lbl_checkout.Location = new System.Drawing.Point(160, 245);
             this.lbl_checkout.Name = "lbl_checkout";
-            this.lbl_checkout.Size = new System.Drawing.Size(85, 19);
+            this.lbl_checkout.Size = new System.Drawing.Size(127, 19);
             this.lbl_checkout.TabIndex = 5;
-            this.lbl_checkout.Text = "Check Out";
+            this.lbl_checkout.Text = "Time Check Out";
             this.lbl_checkout.Click += new System.EventHandler(this.label3_Click);
             // 
             // submit_btn2
@@ -107,18 +100,25 @@
             this.submit_btn2.UseVisualStyleBackColor = false;
             this.submit_btn2.Click += new System.EventHandler(this.submit_btn2_Click);
             // 
+            // date
+            // 
+            this.date.Location = new System.Drawing.Point(292, 128);
+            this.date.Name = "date";
+            this.date.Size = new System.Drawing.Size(200, 20);
+            this.date.TabIndex = 7;
+            // 
             // timedate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.Controls.Add(this.date);
             this.Controls.Add(this.submit_btn2);
             this.Controls.Add(this.lbl_checkout);
             this.Controls.Add(this.lbl_checkin);
             this.Controls.Add(this.lbl_date);
             this.Controls.Add(this.txt_checkout);
             this.Controls.Add(this.txt_checkin);
-            this.Controls.Add(this.txt_date);
             this.Name = "timedate";
             this.Size = new System.Drawing.Size(688, 486);
             this.ResumeLayout(false);
@@ -127,13 +127,12 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txt_date;
         private System.Windows.Forms.TextBox txt_checkin;
         private System.Windows.Forms.TextBox txt_checkout;
         private System.Windows.Forms.Label lbl_date;
         private System.Windows.Forms.Label lbl_checkin;
         private System.Windows.Forms.Label lbl_checkout;
         private System.Windows.Forms.Button submit_btn2;
+        private System.Windows.Forms.DateTimePicker date;
     }
 }
