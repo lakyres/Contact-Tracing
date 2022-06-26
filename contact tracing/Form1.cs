@@ -90,5 +90,10 @@ namespace contact_tracing
             admin1.Show();
             admin1.BringToFront();
         }
+
+        private void admin1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

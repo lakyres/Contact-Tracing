@@ -38,11 +38,11 @@
             this.menu_logo = new System.Windows.Forms.Panel();
             this.menu_top = new System.Windows.Forms.Panel();
             this.btn_x = new System.Windows.Forms.Button();
+            this.admin1 = new contact_tracing.admin();
             this.about1 = new contact_tracing.about();
             this.symptoms1 = new contact_tracing.symptoms();
             this.timedate1 = new contact_tracing.timedate();
             this.personal_info1 = new contact_tracing.personal_info();
-            this.admin1 = new contact_tracing.admin();
             this.menu.SuspendLayout();
             this.menu_top.SuspendLayout();
             this.SuspendLayout();
@@ -195,6 +195,17 @@
             this.btn_x.UseVisualStyleBackColor = false;
             this.btn_x.Click += new System.EventHandler(this.btn_x_Click);
             // 
+            // admin1
+            // 
+            this.admin1.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.admin1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("admin1.BackgroundImage")));
+            this.admin1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.admin1.Location = new System.Drawing.Point(0, 24);
+            this.admin1.Name = "admin1";
+            this.admin1.Size = new System.Drawing.Size(644, 516);
+            this.admin1.TabIndex = 6;
+            this.admin1.Load += new System.EventHandler(this.admin1_Load);
+            // 
             // about1
             // 
             this.about1.BackColor = System.Drawing.Color.HotPink;
@@ -226,15 +237,6 @@
             this.personal_info1.Name = "personal_info1";
             this.personal_info1.Size = new System.Drawing.Size(644, 516);
             this.personal_info1.TabIndex = 2;
-            // 
-            // admin1
-            // 
-            this.admin1.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.admin1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("admin1.BackgroundImage")));
-            this.admin1.Location = new System.Drawing.Point(0, 24);
-            this.admin1.Name = "admin1";
-            this.admin1.Size = new System.Drawing.Size(644, 516);
-            this.admin1.TabIndex = 6;
             // 
             // contraceform
             // 

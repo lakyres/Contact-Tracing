@@ -36,5 +36,30 @@ namespace contact_tracing
         {
 
         }
+
+        private void login_btn_Click(object sender, EventArgs e)
+        {
+            if (username_txtbox.Text=="kylers" && password_txtbox.Text=="kyla1011")
+            {
+                new successlogin_pg().Show();
+                this.Hide();
+
+            }
+            
+            else
+            {
+                MessageBox.Show("Unsuccessful login attempt. Wrong username or password.");
+                username_txtbox.Clear();
+                password_txtbox.Clear();
+                username.Focus();
+
+
+            }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
