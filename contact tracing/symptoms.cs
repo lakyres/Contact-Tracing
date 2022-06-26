@@ -25,7 +25,7 @@ namespace contact_tracing
 
         private void checkBox7_CheckedChanged(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\personal info.txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
             file.WriteLine("");
             file.WriteLine("Cough: Yes");
 
@@ -34,7 +34,7 @@ namespace contact_tracing
 
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\personal info.txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
             file.WriteLine("");
             file.WriteLine("Fatigue: Yes");
 
@@ -43,7 +43,7 @@ namespace contact_tracing
 
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\personal info.txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
             file.WriteLine("");
             file.WriteLine("Sore throat: Yes");
 
@@ -52,7 +52,7 @@ namespace contact_tracing
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\personal info.txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
             file.WriteLine("");
             file.WriteLine("Fever: Yes" );
 
@@ -61,7 +61,7 @@ namespace contact_tracing
 
         private void checkBox5_CheckedChanged(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\personal info.txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
             file.WriteLine("");
             file.WriteLine("Lose of taste/smell: Yes");
 
@@ -70,7 +70,7 @@ namespace contact_tracing
 
         private void nosymp_CheckedChanged(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\personal info.txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
             file.WriteLine("");
             file.WriteLine("No symptoms: Yes");
 
@@ -79,7 +79,7 @@ namespace contact_tracing
 
         private void runnynose_CheckedChanged(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\personal info.txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
             file.WriteLine("");
             file.WriteLine("Runny nose: Yes");
 
@@ -88,7 +88,7 @@ namespace contact_tracing
 
         private void shortness_CheckedChanged(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\personal info.txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing\records\all.txt", true);
             file.WriteLine("");
             file.WriteLine("Shortness of breath: Yes");
 

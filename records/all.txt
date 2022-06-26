@@ -1,0 +1,47 @@
+
+Personal Information
+First Name: kyla
+Middle Name: 
+Last Name: 
+Date of Birth: 
+Age: 
+Sex: 
+Address: 
+Contact: 
+Email: 
+
+Personal Information
+First Name: zoey
+Middle Name: 
+Last Name: 
+Date of Birth: 
+Age: 
+Sex: 
+Address: 
+Contact: 
+Email: 
+
+Personal Information
+First Name: nuki
+Middle Name: 
+Last Name: 
+Date of Birth: 
+Age: 
+Sex: 
+Address: 
+Contact: 
+Email: 
+
+Cough: Yes
+
+Sore throat: Yes
+
+Shortness of breath: Yes
+
+Fatigue: Yes
+
+Fever: Yes
+
+Runny nose: Yes
+
+Lose of taste/smell: Yes

@@ -20,3 +20,4 @@ C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact tr
 C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact_tracing.about.resources
 C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact_tracing.admin.resources
 C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact_tracing.successlogin_pg.resources
+C:\Users\angel\source\repos\contact tracing\contact tracing\obj\Debug\contact_tracing.showrecs.resources

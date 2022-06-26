@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace contact_tracing
 {
@@ -20,6 +21,12 @@ namespace contact_tracing
         private void btn_x_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            showrecs allrecs = new showrecs();
+            allrecs.ShowDialog();
         }
     }
 }
