@@ -76,5 +76,10 @@ namespace contact_tracing
             about1.Show();
             about1.BringToFront();
         }
+
+        private void admin_btn5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
