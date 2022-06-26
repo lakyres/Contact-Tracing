@@ -35,6 +35,7 @@ namespace contact_tracing
             timedate1.Hide();
             about1.Hide();
             symptoms1.Hide();
+            admin1.Hide();
             personal_info1.Show();
             personal_info1.BringToFront();
         }
@@ -49,6 +50,7 @@ namespace contact_tracing
             personal_info1.Hide();
             timedate1.Hide();
             about1.Hide();
+            admin1.Hide();
             symptoms1.Show();
             symptoms1.BringToFront();
 
@@ -59,6 +61,7 @@ namespace contact_tracing
             personal_info1.Hide();
             symptoms1.Hide();
             about1.Hide();
+            admin1.Hide();
             timedate1.Show();
             timedate1.BringToFront();
         }
@@ -73,13 +76,19 @@ namespace contact_tracing
             symptoms1.Hide();
             personal_info1.Hide();
             symptoms1.Hide();
+            admin1.Hide();
             about1.Show();
             about1.BringToFront();
         }
 
         private void admin_btn5_Click(object sender, EventArgs e)
         {
-
+            symptoms1.Hide();
+            personal_info1.Hide();
+            symptoms1.Hide();
+            about1.Hide();
+            admin1.Show();
+            admin1.BringToFront();
         }
     }
 }

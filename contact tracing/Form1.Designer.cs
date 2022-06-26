@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(contraceform));
             this.menu = new System.Windows.Forms.Panel();
+            this.admin_btn5 = new System.Windows.Forms.Button();
             this.menu_btn4 = new System.Windows.Forms.Button();
             this.menu_btn3 = new System.Windows.Forms.Button();
             this.menu_btn2 = new System.Windows.Forms.Button();
@@ -37,11 +38,11 @@
             this.menu_logo = new System.Windows.Forms.Panel();
             this.menu_top = new System.Windows.Forms.Panel();
             this.btn_x = new System.Windows.Forms.Button();
+            this.about1 = new contact_tracing.about();
             this.symptoms1 = new contact_tracing.symptoms();
             this.timedate1 = new contact_tracing.timedate();
             this.personal_info1 = new contact_tracing.personal_info();
-            this.about1 = new contact_tracing.about();
-            this.admin_btn5 = new System.Windows.Forms.Button();
+            this.admin1 = new contact_tracing.admin();
             this.menu.SuspendLayout();
             this.menu_top.SuspendLayout();
             this.SuspendLayout();
@@ -61,6 +62,25 @@
             this.menu.Size = new System.Drawing.Size(230, 540);
             this.menu.TabIndex = 0;
             // 
+            // admin_btn5
+            // 
+            this.admin_btn5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.admin_btn5.FlatAppearance.BorderSize = 0;
+            this.admin_btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.admin_btn5.Font = new System.Drawing.Font("Bebas", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.admin_btn5.ForeColor = System.Drawing.Color.Snow;
+            this.admin_btn5.Image = ((System.Drawing.Image)(resources.GetObject("admin_btn5.Image")));
+            this.admin_btn5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.admin_btn5.Location = new System.Drawing.Point(0, 443);
+            this.admin_btn5.Name = "admin_btn5";
+            this.admin_btn5.Padding = new System.Windows.Forms.Padding(11);
+            this.admin_btn5.Size = new System.Drawing.Size(230, 80);
+            this.admin_btn5.TabIndex = 5;
+            this.admin_btn5.Text = "Admin";
+            this.admin_btn5.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.admin_btn5.UseVisualStyleBackColor = true;
+            this.admin_btn5.Click += new System.EventHandler(this.admin_btn5_Click);
+            // 
             // menu_btn4
             // 
             this.menu_btn4.Dock = System.Windows.Forms.DockStyle.Top;
@@ -72,7 +92,7 @@
             this.menu_btn4.Location = new System.Drawing.Point(0, 370);
             this.menu_btn4.Name = "menu_btn4";
             this.menu_btn4.Padding = new System.Windows.Forms.Padding(11);
-            this.menu_btn4.Size = new System.Drawing.Size(230, 90);
+            this.menu_btn4.Size = new System.Drawing.Size(230, 73);
             this.menu_btn4.TabIndex = 4;
             this.menu_btn4.Text = "About";
             this.menu_btn4.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -175,6 +195,14 @@
             this.btn_x.UseVisualStyleBackColor = false;
             this.btn_x.Click += new System.EventHandler(this.btn_x_Click);
             // 
+            // about1
+            // 
+            this.about1.BackColor = System.Drawing.Color.HotPink;
+            this.about1.Location = new System.Drawing.Point(0, 24);
+            this.about1.Name = "about1";
+            this.about1.Size = new System.Drawing.Size(644, 516);
+            this.about1.TabIndex = 5;
+            // 
             // symptoms1
             // 
             this.symptoms1.BackColor = System.Drawing.Color.MediumPurple;
@@ -199,38 +227,21 @@
             this.personal_info1.Size = new System.Drawing.Size(644, 516);
             this.personal_info1.TabIndex = 2;
             // 
-            // about1
+            // admin1
             // 
-            this.about1.BackColor = System.Drawing.Color.HotPink;
-            this.about1.Location = new System.Drawing.Point(0, 24);
-            this.about1.Name = "about1";
-            this.about1.Size = new System.Drawing.Size(644, 516);
-            this.about1.TabIndex = 5;
-            // 
-            // admin_btn5
-            // 
-            this.admin_btn5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.admin_btn5.FlatAppearance.BorderSize = 0;
-            this.admin_btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.admin_btn5.Font = new System.Drawing.Font("Bebas", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.admin_btn5.ForeColor = System.Drawing.Color.Snow;
-            this.admin_btn5.Image = ((System.Drawing.Image)(resources.GetObject("admin_btn5.Image")));
-            this.admin_btn5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.admin_btn5.Location = new System.Drawing.Point(0, 460);
-            this.admin_btn5.Name = "admin_btn5";
-            this.admin_btn5.Padding = new System.Windows.Forms.Padding(11);
-            this.admin_btn5.Size = new System.Drawing.Size(230, 80);
-            this.admin_btn5.TabIndex = 5;
-            this.admin_btn5.Text = "Admin";
-            this.admin_btn5.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.admin_btn5.UseVisualStyleBackColor = true;
-            this.admin_btn5.Click += new System.EventHandler(this.admin_btn5_Click);
+            this.admin1.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.admin1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("admin1.BackgroundImage")));
+            this.admin1.Location = new System.Drawing.Point(0, 24);
+            this.admin1.Name = "admin1";
+            this.admin1.Size = new System.Drawing.Size(644, 516);
+            this.admin1.TabIndex = 6;
             // 
             // contraceform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(874, 540);
+            this.Controls.Add(this.admin1);
             this.Controls.Add(this.about1);
             this.Controls.Add(this.symptoms1);
             this.Controls.Add(this.timedate1);
@@ -262,6 +273,7 @@
         private System.Windows.Forms.Button menu_btn4;
         private about about1;
         private System.Windows.Forms.Button admin_btn5;
+        private admin admin1;
     }
 }
 
