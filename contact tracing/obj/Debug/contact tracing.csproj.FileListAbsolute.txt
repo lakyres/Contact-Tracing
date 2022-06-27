@@ -44,3 +44,5 @@ C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\contact tracing\obj\Debug\co
 C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\contact tracing\obj\Debug\contact tracing.csproj.CoreCompileInputs.cache
 C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\contact tracing\obj\Debug\contact tracing.exe
 C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\contact tracing\obj\Debug\contact tracing.pdb
+C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\contact tracing\obj\Debug\contact_tracing.personall.resources
+C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\contact tracing\obj\Debug\contact_tracing.checktime.resources

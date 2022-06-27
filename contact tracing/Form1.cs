@@ -32,12 +32,12 @@ namespace contact_tracing
 
         private void menu_btn1_Click(object sender, EventArgs e)
         {
-            timedate1.Hide();
+            
             about1.Hide();
             symptoms1.Hide();
-            admin1.Hide();
-            personal_info1.Show();
-            personal_info1.BringToFront();
+            
+            personall1.Show();
+            personall1.BringToFront();
         }
 
         private void personal_info2_Load(object sender, EventArgs e)
@@ -47,10 +47,10 @@ namespace contact_tracing
 
         private void menu_btn2_Click(object sender, EventArgs e)
         {
-            personal_info1.Hide();
-            timedate1.Hide();
+            personall1.Hide();
+           
             about1.Hide();
-            admin1.Hide();
+           
             symptoms1.Show();
             symptoms1.BringToFront();
 
@@ -58,12 +58,10 @@ namespace contact_tracing
 
         private void menu_btn3_Click(object sender, EventArgs e)
         {
-            personal_info1.Hide();
+            personall1.Hide();
             symptoms1.Hide();
             about1.Hide();
-            admin1.Hide();
-            timedate1.Show();
-            timedate1.BringToFront();
+            
         }
 
         private void btn_x_Click(object sender, EventArgs e)
@@ -74,9 +72,9 @@ namespace contact_tracing
         private void button1_Click_1(object sender, EventArgs e)
         {
             symptoms1.Hide();
-            personal_info1.Hide();
+            personall1.Hide();
             symptoms1.Hide();
-            admin1.Hide();
+            
             about1.Show();
             about1.BringToFront();
         }
@@ -84,11 +82,10 @@ namespace contact_tracing
         private void admin_btn5_Click(object sender, EventArgs e)
         {
             symptoms1.Hide();
-            personal_info1.Hide();
+            personall1.Hide();
             symptoms1.Hide();
             about1.Hide();
-            admin1.Show();
-            admin1.BringToFront();
+            
         }
 
         private void admin1_Load(object sender, EventArgs e)

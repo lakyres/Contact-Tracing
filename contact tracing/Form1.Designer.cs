@@ -38,11 +38,10 @@
             this.menu_logo = new System.Windows.Forms.Panel();
             this.menu_top = new System.Windows.Forms.Panel();
             this.btn_x = new System.Windows.Forms.Button();
-            this.admin1 = new contact_tracing.admin();
+            this.personall1 = new contact_tracing.personall();
             this.about1 = new contact_tracing.about();
             this.symptoms1 = new contact_tracing.symptoms();
-            this.timedate1 = new contact_tracing.timedate();
-            this.personal_info1 = new contact_tracing.personal_info();
+            this.checktime1 = new contact_tracing.checktime();
             this.menu.SuspendLayout();
             this.menu_top.SuspendLayout();
             this.SuspendLayout();
@@ -59,7 +58,7 @@
             this.menu.Dock = System.Windows.Forms.DockStyle.Right;
             this.menu.Location = new System.Drawing.Point(644, 0);
             this.menu.Name = "menu";
-            this.menu.Size = new System.Drawing.Size(230, 540);
+            this.menu.Size = new System.Drawing.Size(230, 568);
             this.menu.TabIndex = 0;
             // 
             // admin_btn5
@@ -74,7 +73,7 @@
             this.admin_btn5.Location = new System.Drawing.Point(0, 443);
             this.admin_btn5.Name = "admin_btn5";
             this.admin_btn5.Padding = new System.Windows.Forms.Padding(11);
-            this.admin_btn5.Size = new System.Drawing.Size(230, 80);
+            this.admin_btn5.Size = new System.Drawing.Size(230, 122);
             this.admin_btn5.TabIndex = 5;
             this.admin_btn5.Text = "Admin";
             this.admin_btn5.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -195,23 +194,20 @@
             this.btn_x.UseVisualStyleBackColor = false;
             this.btn_x.Click += new System.EventHandler(this.btn_x_Click);
             // 
-            // admin1
+            // personall1
             // 
-            this.admin1.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.admin1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("admin1.BackgroundImage")));
-            this.admin1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.admin1.Location = new System.Drawing.Point(0, 24);
-            this.admin1.Name = "admin1";
-            this.admin1.Size = new System.Drawing.Size(644, 516);
-            this.admin1.TabIndex = 6;
-            this.admin1.Load += new System.EventHandler(this.admin1_Load);
+            this.personall1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(144)))), ((int)(((byte)(200)))));
+            this.personall1.Location = new System.Drawing.Point(0, 24);
+            this.personall1.Name = "personall1";
+            this.personall1.Size = new System.Drawing.Size(644, 544);
+            this.personall1.TabIndex = 7;
             // 
             // about1
             // 
             this.about1.BackColor = System.Drawing.Color.HotPink;
             this.about1.Location = new System.Drawing.Point(0, 24);
             this.about1.Name = "about1";
-            this.about1.Size = new System.Drawing.Size(644, 516);
+            this.about1.Size = new System.Drawing.Size(644, 544);
             this.about1.TabIndex = 5;
             // 
             // symptoms1
@@ -219,37 +215,28 @@
             this.symptoms1.BackColor = System.Drawing.Color.MediumPurple;
             this.symptoms1.Location = new System.Drawing.Point(0, 24);
             this.symptoms1.Name = "symptoms1";
-            this.symptoms1.Size = new System.Drawing.Size(644, 516);
+            this.symptoms1.Size = new System.Drawing.Size(644, 544);
             this.symptoms1.TabIndex = 4;
             // 
-            // timedate1
+            // checktime1
             // 
-            this.timedate1.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.timedate1.Location = new System.Drawing.Point(0, 24);
-            this.timedate1.Name = "timedate1";
-            this.timedate1.Size = new System.Drawing.Size(644, 516);
-            this.timedate1.TabIndex = 3;
-            // 
-            // personal_info1
-            // 
-            this.personal_info1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(144)))), ((int)(((byte)(200)))));
-            this.personal_info1.Location = new System.Drawing.Point(0, 24);
-            this.personal_info1.Name = "personal_info1";
-            this.personal_info1.Size = new System.Drawing.Size(644, 516);
-            this.personal_info1.TabIndex = 2;
+            this.checktime1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(114)))), ((int)(((byte)(190)))));
+            this.checktime1.Location = new System.Drawing.Point(0, 24);
+            this.checktime1.Name = "checktime1";
+            this.checktime1.Size = new System.Drawing.Size(644, 541);
+            this.checktime1.TabIndex = 8;
             // 
             // contraceform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(874, 540);
-            this.Controls.Add(this.admin1);
-            this.Controls.Add(this.about1);
-            this.Controls.Add(this.symptoms1);
-            this.Controls.Add(this.timedate1);
-            this.Controls.Add(this.personal_info1);
+            this.ClientSize = new System.Drawing.Size(874, 568);
+            this.Controls.Add(this.checktime1);
             this.Controls.Add(this.menu_top);
             this.Controls.Add(this.menu);
+            this.Controls.Add(this.personall1);
+            this.Controls.Add(this.about1);
+            this.Controls.Add(this.symptoms1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "contraceform";
             this.Text = "Digital Contact Tracing";
@@ -269,13 +256,12 @@
         private System.Windows.Forms.Panel menu_logo;
         private System.Windows.Forms.Panel menu_top;
         private System.Windows.Forms.Button btn_x;
-        private personal_info personal_info1;
-        private timedate timedate1;
         private symptoms symptoms1;
         private System.Windows.Forms.Button menu_btn4;
         private about about1;
         private System.Windows.Forms.Button admin_btn5;
-        private admin admin1;
+        private personall personall1;
+        private checktime checktime1;
     }
 }
 
