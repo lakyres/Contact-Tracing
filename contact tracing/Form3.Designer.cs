@@ -37,12 +37,12 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Indigo;
+            this.panel1.BackColor = System.Drawing.Color.SlateBlue;
             this.panel1.Controls.Add(this.btn_x);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(542, 28);
+            this.panel1.Size = new System.Drawing.Size(449, 28);
             this.panel1.TabIndex = 0;
             // 
             // btn_x
@@ -54,7 +54,7 @@
             this.btn_x.Font = new System.Drawing.Font("Bebas", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_x.ForeColor = System.Drawing.Color.Snow;
             this.btn_x.Image = ((System.Drawing.Image)(resources.GetObject("btn_x.Image")));
-            this.btn_x.Location = new System.Drawing.Point(507, 0);
+            this.btn_x.Location = new System.Drawing.Point(414, 0);
             this.btn_x.Name = "btn_x";
             this.btn_x.Size = new System.Drawing.Size(35, 28);
             this.btn_x.TabIndex = 3;
@@ -78,8 +78,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.ClientSize = new System.Drawing.Size(542, 430);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(150)))), ((int)(((byte)(202)))));
+            this.ClientSize = new System.Drawing.Size(449, 430);
             this.Controls.Add(this.contracerecords);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

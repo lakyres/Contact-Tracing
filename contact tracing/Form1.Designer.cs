@@ -38,10 +38,11 @@
             this.menu_logo = new System.Windows.Forms.Panel();
             this.menu_top = new System.Windows.Forms.Panel();
             this.btn_x = new System.Windows.Forms.Button();
-            this.personall1 = new contact_tracing.personall();
+            this.adminonly1 = new contact_tracing.adminonly();
             this.about1 = new contact_tracing.about();
             this.symptoms1 = new contact_tracing.symptoms();
             this.checktime1 = new contact_tracing.checktime();
+            this.personall1 = new contact_tracing.personall();
             this.menu.SuspendLayout();
             this.menu_top.SuspendLayout();
             this.SuspendLayout();
@@ -194,13 +195,15 @@
             this.btn_x.UseVisualStyleBackColor = false;
             this.btn_x.Click += new System.EventHandler(this.btn_x_Click);
             // 
-            // personall1
+            // adminonly1
             // 
-            this.personall1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(144)))), ((int)(((byte)(200)))));
-            this.personall1.Location = new System.Drawing.Point(0, 24);
-            this.personall1.Name = "personall1";
-            this.personall1.Size = new System.Drawing.Size(644, 544);
-            this.personall1.TabIndex = 7;
+            this.adminonly1.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.adminonly1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("adminonly1.BackgroundImage")));
+            this.adminonly1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.adminonly1.Location = new System.Drawing.Point(0, 24);
+            this.adminonly1.Name = "adminonly1";
+            this.adminonly1.Size = new System.Drawing.Size(644, 544);
+            this.adminonly1.TabIndex = 9;
             // 
             // about1
             // 
@@ -223,20 +226,29 @@
             this.checktime1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(114)))), ((int)(((byte)(190)))));
             this.checktime1.Location = new System.Drawing.Point(0, 24);
             this.checktime1.Name = "checktime1";
-            this.checktime1.Size = new System.Drawing.Size(644, 541);
+            this.checktime1.Size = new System.Drawing.Size(644, 544);
             this.checktime1.TabIndex = 8;
+            // 
+            // personall1
+            // 
+            this.personall1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(144)))), ((int)(((byte)(200)))));
+            this.personall1.Location = new System.Drawing.Point(0, 24);
+            this.personall1.Name = "personall1";
+            this.personall1.Size = new System.Drawing.Size(644, 544);
+            this.personall1.TabIndex = 7;
             // 
             // contraceform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(874, 568);
-            this.Controls.Add(this.checktime1);
             this.Controls.Add(this.menu_top);
             this.Controls.Add(this.menu);
-            this.Controls.Add(this.personall1);
             this.Controls.Add(this.about1);
             this.Controls.Add(this.symptoms1);
+            this.Controls.Add(this.checktime1);
+            this.Controls.Add(this.personall1);
+            this.Controls.Add(this.adminonly1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "contraceform";
             this.Text = "Digital Contact Tracing";
@@ -262,6 +274,7 @@
         private System.Windows.Forms.Button admin_btn5;
         private personall personall1;
         private checktime checktime1;
+        private adminonly adminonly1;
     }
 }
 

@@ -58,6 +58,12 @@
     <Compile Include="admin.Designer.cs">
       <DependentUpon>admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="adminonly.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminonly.Designer.cs">
+      <DependentUpon>adminonly.cs</DependentUpon>
+    </Compile>
     <Compile Include="checktime.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -81,6 +87,12 @@
     </Compile>
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loggedin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loggedin.Designer.cs">
+      <DependentUpon>loggedin.cs</DependentUpon>
     </Compile>
     <Compile Include="personall.cs">
       <SubType>UserControl</SubType>
@@ -120,6 +132,9 @@
     <EmbeddedResource Include="admin.resx">
       <DependentUpon>admin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="adminonly.resx">
+      <DependentUpon>adminonly.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="checktime.resx">
       <DependentUpon>checktime.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loggedin.resx">
+      <DependentUpon>loggedin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="personall.resx">
       <DependentUpon>personall.cs</DependentUpon>
