@@ -1,17 +1,21 @@
 
 Personal Information
-First Name: First Name
-Middle Name: Put N/A if none
-Last Name: Last Name
-Date of Birth: dd/mm/yyyy
-Age: Age
-Sex: Sex
-Address: House no./Street/Barangay/Town/City/Province/Country/Zip Code
-Contact: Contact Number
-Email: you@email.com
+First Name: Kyla
+Middle Name: Naranjo
+Last Name: Marjes
+Date of Birth: 10/11/2002
+Age: 19
+Sex: Female
+Address: 83 Irving St., New Kalalake, Olongapo City, Zambales 2200
+Contact: 09285797337
+Email: kylamarjes11@gmail.com
+
+Date: Monday, June 27, 2022
+Time Check In: 04:35 PM
+Time Check Out: 11:17 AM
 
 Personal Information
-First Name: First Name
+First Name: nuki
 Middle Name: Put N/A if none
 Last Name: Last Name
 Date of Birth: mm/dd/yyyy
@@ -19,8 +23,22 @@ Age: Age
 Sex: Sex
 Address: House no./Street/Barangay/Town/City/Province/Country/Zip Code
 Contact: Contact Number
-Email: s
+Email: you@email.com
+
+Fever: No
+
+Runny nose: No
+
+Fatigue: No
+
+Shortness of breath: No
+
+Cough: No
+
+Sore throat: No
+
+Lose of taste/smell: No
 
 Date: Monday, June 27, 2022
-Time Check In: 00:00 AM/PM
-Time Check Out: 00:00 AM/PM
+Time Check In: 12:00 AM
+Time Check Out: 09:07 PM

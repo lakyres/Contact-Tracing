@@ -178,7 +178,7 @@
             this.txt_birthdate.Name = "txt_birthdate";
             this.txt_birthdate.Size = new System.Drawing.Size(115, 20);
             this.txt_birthdate.TabIndex = 11;
-            this.txt_birthdate.Text = "dd/mm/yyyy";
+            this.txt_birthdate.Text = "mm/dd/yyyy";
             this.txt_birthdate.Enter += new System.EventHandler(this.txt_birthdate_Enter);
             this.txt_birthdate.Leave += new System.EventHandler(this.txt_birthdate_Leave);
             // 
