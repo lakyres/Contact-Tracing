@@ -34,7 +34,7 @@ namespace contact_tracing
             List<string> dates = new List<string>();
             string Date = selectdate.Text;
             int resultdate = 0;
-            var txtfiles = Directory.EnumerateFiles(@"C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\records");
+            var txtfiles = Directory.EnumerateFiles(@"C:\Users\angel\source\repos\contact tracing legit totoo\records");
             foreach (string file in txtfiles)
             {
                 string content = File.ReadAllText(file);
@@ -52,7 +52,7 @@ namespace contact_tracing
             }
             else
             {
-                StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\records\dates\specific date.txt");
+                StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing legit totoo\records\dates\specific date.txt");
                 foreach (string content in dates)
                 {
                     _ = dates.LastOrDefault();

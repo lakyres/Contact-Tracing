@@ -71,7 +71,7 @@ namespace contact_tracing
 
         private void btn_submit_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\records\all.txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing legit totoo\records\all.txt", true);
             file.WriteLine("");
             file.WriteLine("Date: " + date.Text);
             file.WriteLine("Time Check In: " + txt_checkin.Text);
@@ -79,7 +79,7 @@ namespace contact_tracing
 
             file.Close();
 
-            MessageBox.Show("Thank you. Be careful and take care!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Stay Safe. Ingat!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
             txt_checkin.Text = "00:00 AM/PM";
             txt_checkin.ForeColor = Color.Silver;
             txt_checkout.Text = "00:00 AM/PM";

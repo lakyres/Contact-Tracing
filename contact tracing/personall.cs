@@ -196,7 +196,7 @@ namespace contact_tracing
 
         private void btn_submit_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\records\all.txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing legit totoo\records\all.txt", true);
             file.WriteLine("");
             file.WriteLine("Personal Information");
             file.WriteLine("First Name: " + txt_firstname.Text);

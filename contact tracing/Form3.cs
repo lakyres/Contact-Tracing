@@ -16,7 +16,7 @@ namespace contact_tracing
         public showrecs()
         {
             InitializeComponent();
-            var allrecords = Directory.GetFiles(@"C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\records");
+            var allrecords = Directory.GetFiles(@"C:\Users\angel\source\repos\contact tracing legit totoo\records");
             foreach (var record in allrecords)
             {
                 string records = File.ReadAllText(record);

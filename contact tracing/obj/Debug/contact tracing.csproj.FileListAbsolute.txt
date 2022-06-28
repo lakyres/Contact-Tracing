@@ -49,3 +49,31 @@ C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\contact tracing\obj\Debug\co
 C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\contact tracing\obj\Debug\contact_tracing.adminonly.resources
 C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\contact tracing\obj\Debug\contact_tracing.loggedin.resources
 C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\contact tracing\obj\Debug\contact_tracing.selecteddatelist.resources
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\bin\Debug\contact tracing.exe.config
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\bin\Debug\contact tracing.exe
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\bin\Debug\contact tracing.pdb
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\bin\Debug\Interop.WMPLib.dll
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact tracing.csproj.AssemblyReference.cache
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact tracing.csproj.SuggestedBindingRedirects.cache
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\Interop.WMPLib.dll
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact tracing.csproj.ResolveComReference.cache
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact_tracing.about.resources
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact_tracing.admin.resources
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact_tracing.adminonly.resources
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact_tracing.checktime.resources
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact_tracing.contraceform.resources
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact_tracing.successlogin_pg.resources
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact_tracing.showrecs.resources
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact_tracing.loggedin.resources
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact_tracing.personall.resources
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact_tracing.personal_info.resources
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact_tracing.Properties.Resources.resources
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact_tracing.selecteddatelist.resources
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact_tracing.symptoms.resources
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact_tracing.timedate.resources
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact tracing.csproj.GenerateResource.cache
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact tracing.csproj.CoreCompileInputs.cache
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact tracing.exe
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact tracing.pdb

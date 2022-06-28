@@ -41,5 +41,24 @@ namespace contact_tracing
 
             }
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if(show_pass.Checked)
+            {
+                txt_password.UseSystemPasswordChar = false;
+            }
+
+            else
+            {
+                txt_password.UseSystemPasswordChar = true;
+            }
+               
+        }
+
+        private void txt_password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

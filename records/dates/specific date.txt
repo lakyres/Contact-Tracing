@@ -118,3 +118,37 @@ Date: Monday, June 20, 2022
 Time Check In: legit
 Time Check Out: totoo
 
+Personal Information
+First Name: First Name
+Middle Name: Put N/A if none
+Last Name: Last Name
+Date of Birth: mm/dd/yyyy
+Age: Age
+Sex: Sex
+Address: House no./Street/Barangay/Town/City/Province/Country/Zip Code
+Contact: Contact Number
+Email: you@email.com
+
+Fatigue: Yes
+
+Date: Wednesday, June 29, 2022
+Time Check In: 00:00 AM/PM
+Time Check Out: 00:00 AM/PM
+
+Personal Information
+First Name: nuki
+Middle Name: Put N/A if none
+Last Name: Last Name
+Date of Birth: mm/dd/yyyy
+Age: Age
+Sex: Sex
+Address: House no./Street/Barangay/Town/City/Province/Country/Zip Code
+Contact: Contact Number
+Email: you@email.com
+
+Lose of taste/smell: No
+
+Date: Wednesday, June 8, 2022
+Time Check In: 00:00 AM/PM
+Time Check Out: 00:00 AM/PM
+
