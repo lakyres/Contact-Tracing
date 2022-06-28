@@ -1,6 +1,6 @@
 ﻿namespace contact_tracing
 {
-    partial class showrecs
+    partial class selecteddatelist
     {
         /// <summary>
         /// Required designer variable.
@@ -28,22 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(showrecs));
-            this.panel1 = new System.Windows.Forms.Panel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(selecteddatelist));
+            this.upper_panel = new System.Windows.Forms.Panel();
             this.btn_x = new System.Windows.Forms.Button();
-            this.contracerecords = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
+            this.lbl_selectedrecord = new System.Windows.Forms.Label();
+            this.upper_panel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // upper_panel
             // 
-            this.panel1.BackColor = System.Drawing.Color.SlateBlue;
-            this.panel1.Controls.Add(this.btn_x);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(574, 28);
-            this.panel1.TabIndex = 0;
+            this.upper_panel.AutoScroll = true;
+            this.upper_panel.BackColor = System.Drawing.Color.Purple;
+            this.upper_panel.Controls.Add(this.btn_x);
+            this.upper_panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.upper_panel.Location = new System.Drawing.Point(0, 0);
+            this.upper_panel.Name = "upper_panel";
+            this.upper_panel.Size = new System.Drawing.Size(800, 26);
+            this.upper_panel.TabIndex = 0;
             // 
             // btn_x
             // 
@@ -54,39 +55,40 @@
             this.btn_x.Font = new System.Drawing.Font("Bebas", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_x.ForeColor = System.Drawing.Color.Snow;
             this.btn_x.Image = ((System.Drawing.Image)(resources.GetObject("btn_x.Image")));
-            this.btn_x.Location = new System.Drawing.Point(539, 0);
+            this.btn_x.Location = new System.Drawing.Point(765, 0);
             this.btn_x.Name = "btn_x";
-            this.btn_x.Size = new System.Drawing.Size(35, 28);
+            this.btn_x.Size = new System.Drawing.Size(35, 26);
             this.btn_x.TabIndex = 3;
             this.btn_x.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btn_x.UseVisualStyleBackColor = false;
             this.btn_x.Click += new System.EventHandler(this.btn_x_Click);
             // 
-            // contracerecords
+            // lbl_selectedrecord
             // 
-            this.contracerecords.AutoSize = true;
-            this.contracerecords.Font = new System.Drawing.Font("Bell MT", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contracerecords.ForeColor = System.Drawing.Color.Transparent;
-            this.contracerecords.Location = new System.Drawing.Point(12, 40);
-            this.contracerecords.Name = "contracerecords";
-            this.contracerecords.Size = new System.Drawing.Size(183, 20);
-            this.contracerecords.TabIndex = 1;
-            this.contracerecords.Text = "Contact Tracing Records";
+            this.lbl_selectedrecord.AutoSize = true;
+            this.lbl_selectedrecord.Font = new System.Drawing.Font("Bell MT", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_selectedrecord.ForeColor = System.Drawing.Color.DarkSlateBlue;
+            this.lbl_selectedrecord.Location = new System.Drawing.Point(34, 64);
+            this.lbl_selectedrecord.Name = "lbl_selectedrecord";
+            this.lbl_selectedrecord.Size = new System.Drawing.Size(150, 20);
+            this.lbl_selectedrecord.TabIndex = 1;
+            this.lbl_selectedrecord.Text = "Records on this date";
             // 
-            // showrecs
+            // selecteddatelist
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(150)))), ((int)(((byte)(202)))));
-            this.ClientSize = new System.Drawing.Size(574, 607);
-            this.Controls.Add(this.contracerecords);
-            this.Controls.Add(this.panel1);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbl_selectedrecord);
+            this.Controls.Add(this.upper_panel);
+            this.ForeColor = System.Drawing.Color.HotPink;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "showrecs";
-            this.Text = "Form3";
-            this.Load += new System.EventHandler(this.Form3_Load);
-            this.panel1.ResumeLayout(false);
+            this.Name = "selecteddatelist";
+            this.Text = "selecteddatelist";
+            this.Load += new System.EventHandler(this.selecteddatelist_Load);
+            this.upper_panel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -94,8 +96,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel upper_panel;
+        private System.Windows.Forms.Label lbl_selectedrecord;
         private System.Windows.Forms.Button btn_x;
-        private System.Windows.Forms.Label contracerecords;
     }
 }

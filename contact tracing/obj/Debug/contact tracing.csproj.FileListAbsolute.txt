@@ -48,3 +48,4 @@ C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\contact tracing\obj\Debug\co
 C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\contact tracing\obj\Debug\contact_tracing.checktime.resources
 C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\contact tracing\obj\Debug\contact_tracing.adminonly.resources
 C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\contact tracing\obj\Debug\contact_tracing.loggedin.resources
+C:\Users\angel\source\repos\Contact-Tracing (LEGIT)\contact tracing\obj\Debug\contact_tracing.selecteddatelist.resources

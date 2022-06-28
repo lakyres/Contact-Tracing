@@ -26,7 +26,7 @@ namespace contact_tracing
         {
             if (txt_username.Text == "kylers" && txt_password.Text == "kyla1011")
             {
-                new successlogin_pg().Show();
+                new loggedin().Show();
                 this.Hide();
 
             }
