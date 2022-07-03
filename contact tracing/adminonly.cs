@@ -40,6 +40,9 @@ namespace contact_tracing
 
 
             }
+
+            MessageBox.Show("Welcome, Kyla N. Marjes");
+            MessageBox.Show("You are now logged in.");
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -55,6 +58,8 @@ namespace contact_tracing
             }
                
         }
+
+
 
         private void txt_password_TextChanged(object sender, EventArgs e)
         {
