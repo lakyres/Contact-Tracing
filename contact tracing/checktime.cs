@@ -71,7 +71,7 @@ namespace contact_tracing
 
         private void btn_submit_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing legit totoo\records\all.txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing legit totoo\records\" + date.Text + ".txt", true);
             file.WriteLine("");
             file.WriteLine("Date: " + date.Text);
             file.WriteLine("Time Check In: " + txt_checkin.Text);

@@ -16,7 +16,7 @@ namespace contact_tracing
         public selecteddatelist()
         {
             InitializeComponent();
-            var datefiles = Directory.GetFiles(@"C:\Users\angel\source\repos\contact tracing legit totoo\records\dates");
+            var datefiles = Directory.GetFiles(@"C:\Users\angel\source\repos\contact tracing legit totoo\records\dates\");
             foreach (string file in datefiles)
             {
                 string dates = File.ReadAllText(file);

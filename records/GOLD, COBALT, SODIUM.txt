@@ -1,0 +1,15 @@
+
+Personal Information
+First Name: GOLD
+Middle Name: COBALT
+Last Name: SODIUM
+Date of Birth: mm/dd/yyyy
+Age: Age
+Sex: Sex
+Address: House no./Street/Barangay/Town/City/Province/Country/Zip Code
+Contact: Contact Number
+Email: you@email.com
+
+Date: Friday, July 1, 2022
+Time Check In: 00:00 AM/PM
+Time Check Out: 00:00 AM/PM

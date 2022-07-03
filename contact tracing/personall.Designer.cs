@@ -47,6 +47,11 @@
             this.txt_contactnum = new System.Windows.Forms.TextBox();
             this.txt_email = new System.Windows.Forms.TextBox();
             this.btn_submit = new System.Windows.Forms.Button();
+            this.date = new System.Windows.Forms.DateTimePicker();
+            this.txt_checkin = new System.Windows.Forms.TextBox();
+            this.txt_checkout = new System.Windows.Forms.TextBox();
+            this.lbl_checkin = new System.Windows.Forms.Label();
+            this.lbl_checkout = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbl_firstname
@@ -112,7 +117,7 @@
             this.txt_middlename.Name = "txt_middlename";
             this.txt_middlename.Size = new System.Drawing.Size(139, 20);
             this.txt_middlename.TabIndex = 5;
-            this.txt_middlename.Text = "Put N/A if none";
+            this.txt_middlename.Text = "Put NA if none";
             this.txt_middlename.Enter += new System.EventHandler(this.txt_middlename_Enter);
             this.txt_middlename.Leave += new System.EventHandler(this.txt_middlename_Leave);
             // 
@@ -187,7 +192,7 @@
             this.lbl_address.AutoSize = true;
             this.lbl_address.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_address.ForeColor = System.Drawing.Color.Transparent;
-            this.lbl_address.Location = new System.Drawing.Point(63, 261);
+            this.lbl_address.Location = new System.Drawing.Point(36, 192);
             this.lbl_address.Name = "lbl_address";
             this.lbl_address.Size = new System.Drawing.Size(75, 22);
             this.lbl_address.TabIndex = 12;
@@ -196,7 +201,7 @@
             // txt_address
             // 
             this.txt_address.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txt_address.Location = new System.Drawing.Point(144, 264);
+            this.txt_address.Location = new System.Drawing.Point(117, 194);
             this.txt_address.Name = "txt_address";
             this.txt_address.Size = new System.Drawing.Size(441, 20);
             this.txt_address.TabIndex = 13;
@@ -209,7 +214,7 @@
             this.lbl_contactnum.AutoSize = true;
             this.lbl_contactnum.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_contactnum.ForeColor = System.Drawing.Color.Transparent;
-            this.lbl_contactnum.Location = new System.Drawing.Point(139, 347);
+            this.lbl_contactnum.Location = new System.Drawing.Point(113, 251);
             this.lbl_contactnum.Name = "lbl_contactnum";
             this.lbl_contactnum.Size = new System.Drawing.Size(141, 22);
             this.lbl_contactnum.TabIndex = 14;
@@ -221,7 +226,7 @@
             this.lbl_email.AutoSize = true;
             this.lbl_email.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_email.ForeColor = System.Drawing.Color.Transparent;
-            this.lbl_email.Location = new System.Drawing.Point(225, 373);
+            this.lbl_email.Location = new System.Drawing.Point(199, 277);
             this.lbl_email.Name = "lbl_email";
             this.lbl_email.Size = new System.Drawing.Size(55, 22);
             this.lbl_email.TabIndex = 15;
@@ -230,7 +235,7 @@
             // txt_contactnum
             // 
             this.txt_contactnum.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txt_contactnum.Location = new System.Drawing.Point(286, 349);
+            this.txt_contactnum.Location = new System.Drawing.Point(260, 254);
             this.txt_contactnum.Name = "txt_contactnum";
             this.txt_contactnum.Size = new System.Drawing.Size(139, 20);
             this.txt_contactnum.TabIndex = 16;
@@ -241,7 +246,7 @@
             // txt_email
             // 
             this.txt_email.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txt_email.Location = new System.Drawing.Point(286, 375);
+            this.txt_email.Location = new System.Drawing.Point(260, 280);
             this.txt_email.Name = "txt_email";
             this.txt_email.Size = new System.Drawing.Size(165, 20);
             this.txt_email.TabIndex = 17;
@@ -254,7 +259,7 @@
             this.btn_submit.BackColor = System.Drawing.Color.Thistle;
             this.btn_submit.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_submit.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_submit.Location = new System.Drawing.Point(462, 409);
+            this.btn_submit.Location = new System.Drawing.Point(484, 422);
             this.btn_submit.Name = "btn_submit";
             this.btn_submit.Size = new System.Drawing.Size(101, 43);
             this.btn_submit.TabIndex = 18;
@@ -262,11 +267,68 @@
             this.btn_submit.UseVisualStyleBackColor = false;
             this.btn_submit.Click += new System.EventHandler(this.btn_submit_Click);
             // 
+            // date
+            // 
+            this.date.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date.Location = new System.Drawing.Point(27, 31);
+            this.date.Name = "date";
+            this.date.Size = new System.Drawing.Size(236, 24);
+            this.date.TabIndex = 19;
+            // 
+            // txt_checkin
+            // 
+            this.txt_checkin.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_checkin.Location = new System.Drawing.Point(169, 334);
+            this.txt_checkin.Name = "txt_checkin";
+            this.txt_checkin.Size = new System.Drawing.Size(102, 20);
+            this.txt_checkin.TabIndex = 20;
+            this.txt_checkin.Text = "00:00 AM/PM";
+            this.txt_checkin.Enter += new System.EventHandler(this.txt_checkin_Enter);
+            this.txt_checkin.Leave += new System.EventHandler(this.txt_checkin_Leave);
+            // 
+            // txt_checkout
+            // 
+            this.txt_checkout.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_checkout.Location = new System.Drawing.Point(454, 334);
+            this.txt_checkout.Name = "txt_checkout";
+            this.txt_checkout.Size = new System.Drawing.Size(102, 20);
+            this.txt_checkout.TabIndex = 21;
+            this.txt_checkout.Text = "00:00 AM/PM";
+            this.txt_checkout.Enter += new System.EventHandler(this.txt_checkout_Enter);
+            this.txt_checkout.Leave += new System.EventHandler(this.txt_checkout_Leave);
+            // 
+            // lbl_checkin
+            // 
+            this.lbl_checkin.AutoSize = true;
+            this.lbl_checkin.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_checkin.ForeColor = System.Drawing.Color.Transparent;
+            this.lbl_checkin.Location = new System.Drawing.Point(36, 334);
+            this.lbl_checkin.Name = "lbl_checkin";
+            this.lbl_checkin.Size = new System.Drawing.Size(127, 22);
+            this.lbl_checkin.TabIndex = 22;
+            this.lbl_checkin.Text = "Time Check In";
+            // 
+            // lbl_checkout
+            // 
+            this.lbl_checkout.AutoSize = true;
+            this.lbl_checkout.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_checkout.ForeColor = System.Drawing.Color.Transparent;
+            this.lbl_checkout.Location = new System.Drawing.Point(307, 334);
+            this.lbl_checkout.Name = "lbl_checkout";
+            this.lbl_checkout.Size = new System.Drawing.Size(141, 22);
+            this.lbl_checkout.TabIndex = 23;
+            this.lbl_checkout.Text = "Time Check Out";
+            // 
             // personall
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(144)))), ((int)(((byte)(200)))));
+            this.Controls.Add(this.lbl_checkout);
+            this.Controls.Add(this.lbl_checkin);
+            this.Controls.Add(this.txt_checkout);
+            this.Controls.Add(this.txt_checkin);
+            this.Controls.Add(this.date);
             this.Controls.Add(this.btn_submit);
             this.Controls.Add(this.txt_email);
             this.Controls.Add(this.txt_contactnum);
@@ -314,5 +376,10 @@
         private System.Windows.Forms.TextBox txt_contactnum;
         private System.Windows.Forms.TextBox txt_email;
         private System.Windows.Forms.Button btn_submit;
+        private System.Windows.Forms.DateTimePicker date;
+        private System.Windows.Forms.TextBox txt_checkin;
+        private System.Windows.Forms.TextBox txt_checkout;
+        private System.Windows.Forms.Label lbl_checkin;
+        private System.Windows.Forms.Label lbl_checkout;
     }
 }

@@ -40,9 +40,8 @@ namespace contact_tracing
                 string content = File.ReadAllText(file);
                 if (content.Contains(Date))
                 {
-                    var date = content.Substring(content.IndexOf("=") + 1);
-                    resultdate++;
                     dates.Add(content);
+                    resultdate++;
                     continue;
                 }
             }
@@ -55,14 +54,17 @@ namespace contact_tracing
                 StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing legit totoo\records\dates\specific date.txt");
                 foreach (string content in dates)
                 {
-                    _ = dates.LastOrDefault();
+                   
                     file.WriteLine(content);
                 }
                 file.Close();
-                MessageBox.Show("Found record(s) on the selected date");
-                MessageBox.Show("All the records are in one text file. Scroll through the list and find it by looking at the date.");
-                selecteddatelist date = new selecteddatelist();
-                date.ShowDialog();
+                MessageBox.Show("The system found " + resultdate  + " record(s) on the date selected");
+                MessageBox.Show("All record(s) for this date will be shown");
+                if (MessageBox.Show("Are you sure?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    selecteddatelist date = new selecteddatelist();
+                    date.ShowDialog();
+                }
             }
 
         }

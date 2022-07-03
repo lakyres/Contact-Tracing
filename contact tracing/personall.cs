@@ -43,7 +43,7 @@ namespace contact_tracing
 
         private void txt_middlename_Enter(object sender, EventArgs e)
         {
-            if (txt_middlename.Text == "Put N/A if none")
+            if (txt_middlename.Text == "Put NA if none")
             {
                 txt_middlename.Text = "";
                 txt_middlename.ForeColor = Color.Black;
@@ -54,7 +54,7 @@ namespace contact_tracing
         {
             if (txt_middlename.Text == "")
             {
-                txt_middlename.Text = "Put N/A if none";
+                txt_middlename.Text = "Put NA if none";
                 txt_middlename.ForeColor = Color.Silver;
             }
         }
@@ -196,7 +196,7 @@ namespace contact_tracing
 
         private void btn_submit_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing legit totoo\records\all.txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing legit totoo\records\" + txt_firstname.Text + ", " + txt_middlename.Text + ", " + txt_lastname.Text + ".txt", true);
             file.WriteLine("");
             file.WriteLine("Personal Information");
             file.WriteLine("First Name: " + txt_firstname.Text);
@@ -208,13 +208,20 @@ namespace contact_tracing
             file.WriteLine("Address: " + txt_address.Text);
             file.WriteLine("Contact: " + txt_contactnum.Text);
             file.WriteLine("Email: " + txt_email.Text);
+            
+
+            file.WriteLine("");
+            file.WriteLine("Date: " + date.Text);
+            file.WriteLine("Time Check In: " + txt_checkin.Text);
+            file.WriteLine("Time Check Out: " + txt_checkout.Text);
 
             file.Close();
 
             MessageBox.Show("Thank you. Be careful and take care!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Stay Safe. Ingat!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
             txt_firstname.Text = "First Name";
             txt_firstname.ForeColor = Color.Silver;
-            txt_middlename.Text = "Put N/A if none";
+            txt_middlename.Text = "Put NA if none";
             txt_middlename.ForeColor = Color.Silver;
             txt_lastname.Text = "Last Name";
             txt_lastname.ForeColor = Color.Silver;
@@ -230,6 +237,46 @@ namespace contact_tracing
             txt_sex.ForeColor = Color.Silver;
             txt_age.Text = "Age";
             txt_age.ForeColor = Color.Silver;
+            txt_checkin.Text = "00:00 AM/PM";
+            txt_checkin.ForeColor = Color.Silver;
+            txt_checkout.Text = "00:00 AM/PM";
+            txt_checkout.ForeColor = Color.Silver;
+        }
+
+        private void txt_checkin_Enter(object sender, EventArgs e)
+        {
+            if (txt_checkin.Text == "00:00 AM/PM")
+            {
+                txt_checkin.Text = "";
+                txt_checkin.ForeColor = Color.Black;
+            }
+        }
+
+        private void txt_checkin_Leave(object sender, EventArgs e)
+        {
+            if (txt_checkin.Text == "")
+            {
+                txt_checkin.Text = "00:00 AM/PM";
+                txt_checkin.ForeColor = Color.Silver;
+            }
+        }
+
+        private void txt_checkout_Enter(object sender, EventArgs e)
+        {
+            if (txt_checkout.Text == "00:00 AM/PM")
+            {
+                txt_checkout.Text = "";
+                txt_checkout.ForeColor = Color.Black;
+            }
+        }
+
+        private void txt_checkout_Leave(object sender, EventArgs e)
+        {
+            if (txt_checkout.Text == "")
+            {
+                txt_checkout.Text = "00:00 AM/PM";
+                txt_checkout.ForeColor = Color.Silver;
+            }
         }
     }
 }

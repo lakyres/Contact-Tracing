@@ -47,6 +47,7 @@
             this.lbl_address = new System.Windows.Forms.Label();
             this.txt_address = new System.Windows.Forms.TextBox();
             this.submit_btn1 = new System.Windows.Forms.Button();
+            this.date = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // txt_firstname
@@ -233,11 +234,20 @@
             this.submit_btn1.UseVisualStyleBackColor = false;
             this.submit_btn1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // date
+            // 
+            this.date.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date.Location = new System.Drawing.Point(34, 42);
+            this.date.Name = "date";
+            this.date.Size = new System.Drawing.Size(236, 24);
+            this.date.TabIndex = 19;
+            // 
             // personal_info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(144)))), ((int)(((byte)(200)))));
+            this.Controls.Add(this.date);
             this.Controls.Add(this.submit_btn1);
             this.Controls.Add(this.txt_address);
             this.Controls.Add(this.lbl_address);
@@ -285,5 +295,6 @@
         private System.Windows.Forms.Label lbl_address;
         private System.Windows.Forms.TextBox txt_address;
         private System.Windows.Forms.Button submit_btn1;
+        private System.Windows.Forms.DateTimePicker date;
     }
 }
