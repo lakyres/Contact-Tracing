@@ -95,9 +95,11 @@
             // 
             // txt_display
             // 
-            this.txt_display.Location = new System.Drawing.Point(88, 323);
+            this.txt_display.Location = new System.Drawing.Point(98, 310);
+            this.txt_display.Multiline = true;
             this.txt_display.Name = "txt_display";
-            this.txt_display.Size = new System.Drawing.Size(398, 20);
+            this.txt_display.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.txt_display.Size = new System.Drawing.Size(434, 229);
             this.txt_display.TabIndex = 33;
             // 
             // btn_scan
@@ -118,7 +120,7 @@
             this.btn_submit.BackColor = System.Drawing.Color.Thistle;
             this.btn_submit.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_submit.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_submit.Location = new System.Drawing.Point(216, 349);
+            this.btn_submit.Location = new System.Drawing.Point(538, 410);
             this.btn_submit.Name = "btn_submit";
             this.btn_submit.Size = new System.Drawing.Size(101, 43);
             this.btn_submit.TabIndex = 35;
@@ -134,7 +136,7 @@
             // date
             // 
             this.date.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.date.Location = new System.Drawing.Point(411, 368);
+            this.date.Location = new System.Drawing.Point(538, 12);
             this.date.Name = "date";
             this.date.Size = new System.Drawing.Size(236, 24);
             this.date.TabIndex = 36;
@@ -144,7 +146,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumOrchid;
-            this.ClientSize = new System.Drawing.Size(680, 450);
+            this.ClientSize = new System.Drawing.Size(817, 551);
             this.Controls.Add(this.date);
             this.Controls.Add(this.btn_submit);
             this.Controls.Add(this.btn_scan);
