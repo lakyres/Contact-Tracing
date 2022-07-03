@@ -72,7 +72,7 @@ namespace contact_tracing
             StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing legit totoo\records\" + date.Text + ".txt", true);
             file.WriteLine("");
             file.WriteLine("Personal Information");
-            file.WriteLine(txt_display);
+            file.WriteLine(txt_display.Text);
             file.WriteLine("Date: " + date.Text);
 
             file.Close();
