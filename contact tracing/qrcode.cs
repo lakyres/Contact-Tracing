@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using AForge.Video.DirectShow;
 using AForge.Video;
 using ZXing;
+using System.IO;
 
 namespace contact_tracing
 {
@@ -64,6 +65,20 @@ namespace contact_tracing
                         captureDevice.Stop();
                 }
             }
+        }
+
+        private void btn_submit_Click(object sender, EventArgs e)
+        {
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing legit totoo\records\" + date.Text + ".txt", true);
+            file.WriteLine("");
+            file.WriteLine("Personal Information");
+            file.WriteLine(txt_display);
+            file.WriteLine("Date: " + date.Text);
+
+            file.Close();
+
+            MessageBox.Show("Thank you. Be careful and take care!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Stay Safe. Ingat!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

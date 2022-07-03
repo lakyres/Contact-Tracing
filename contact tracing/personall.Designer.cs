@@ -98,6 +98,7 @@
             this.txt_firstname.Size = new System.Drawing.Size(139, 20);
             this.txt_firstname.TabIndex = 3;
             this.txt_firstname.Text = "First Name";
+            this.txt_firstname.TextChanged += new System.EventHandler(this.txt_firstname_TextChanged);
             this.txt_firstname.Enter += new System.EventHandler(this.txt_firstname_Enter);
             this.txt_firstname.Leave += new System.EventHandler(this.txt_firstname_Leave);
             // 

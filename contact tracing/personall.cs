@@ -314,5 +314,10 @@ namespace contact_tracing
             qrcodescanner show = new qrcodescanner();
             show.ShowDialog();
         }
+
+        private void txt_firstname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

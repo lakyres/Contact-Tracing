@@ -38,6 +38,7 @@
             this.btn_scan = new System.Windows.Forms.Button();
             this.btn_submit = new System.Windows.Forms.Button();
             this.timer = new System.Windows.Forms.Timer(this.components);
+            this.date = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.camera)).BeginInit();
             this.SuspendLayout();
             // 
@@ -123,11 +124,20 @@
             this.btn_submit.TabIndex = 35;
             this.btn_submit.Text = "Submit";
             this.btn_submit.UseVisualStyleBackColor = false;
+            this.btn_submit.Click += new System.EventHandler(this.btn_submit_Click);
             // 
             // timer
             // 
             this.timer.Interval = 1000;
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
+            // date
+            // 
+            this.date.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date.Location = new System.Drawing.Point(411, 368);
+            this.date.Name = "date";
+            this.date.Size = new System.Drawing.Size(236, 24);
+            this.date.TabIndex = 36;
             // 
             // qrcodescanner
             // 
@@ -135,6 +145,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumOrchid;
             this.ClientSize = new System.Drawing.Size(680, 450);
+            this.Controls.Add(this.date);
             this.Controls.Add(this.btn_submit);
             this.Controls.Add(this.btn_scan);
             this.Controls.Add(this.txt_display);
@@ -164,5 +175,6 @@
         private System.Windows.Forms.Button btn_scan;
         private System.Windows.Forms.Button btn_submit;
         private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.DateTimePicker date;
     }
 }
