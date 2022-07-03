@@ -8,6 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AForge.Video.DirectShow;
+using AForge.Video;
+using ZXing;
 
 namespace contact_tracing
 {
@@ -17,6 +20,7 @@ namespace contact_tracing
         {
             InitializeComponent();
         }
+
 
         private void txt_firstname_Enter(object sender, EventArgs e)
         {
@@ -282,6 +286,33 @@ namespace contact_tracing
         private void txt_display_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void personall_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+           
+
+        }
+
+        private void CaptureDevie_NewFrame(object sender, NewFrameEventArgs eventArgs)
+        {
+            
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            qrcodescanner show = new qrcodescanner();
+            show.ShowDialog();
         }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lbl_firstname = new System.Windows.Forms.Label();
             this.lbl_lastname = new System.Windows.Forms.Label();
             this.lbl_middlename = new System.Windows.Forms.Label();
@@ -52,13 +53,8 @@
             this.txt_checkout = new System.Windows.Forms.TextBox();
             this.lbl_checkin = new System.Windows.Forms.Label();
             this.lbl_checkout = new System.Windows.Forms.Label();
-            this.webcam = new System.Windows.Forms.ComboBox();
-            this.lbl_scan = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lbl_webcam = new System.Windows.Forms.Label();
-            this.txt_display = new System.Windows.Forms.TextBox();
-            this.lbl_display = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.timer = new System.Windows.Forms.Timer(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_firstname
@@ -77,7 +73,7 @@
             this.lbl_lastname.AutoSize = true;
             this.lbl_lastname.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_lastname.ForeColor = System.Drawing.Color.Transparent;
-            this.lbl_lastname.Location = new System.Drawing.Point(68, 132);
+            this.lbl_lastname.Location = new System.Drawing.Point(68, 131);
             this.lbl_lastname.Name = "lbl_lastname";
             this.lbl_lastname.Size = new System.Drawing.Size(95, 22);
             this.lbl_lastname.TabIndex = 1;
@@ -199,7 +195,7 @@
             this.lbl_address.AutoSize = true;
             this.lbl_address.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_address.ForeColor = System.Drawing.Color.Transparent;
-            this.lbl_address.Location = new System.Drawing.Point(36, 173);
+            this.lbl_address.Location = new System.Drawing.Point(41, 218);
             this.lbl_address.Name = "lbl_address";
             this.lbl_address.Size = new System.Drawing.Size(75, 22);
             this.lbl_address.TabIndex = 12;
@@ -208,7 +204,7 @@
             // txt_address
             // 
             this.txt_address.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txt_address.Location = new System.Drawing.Point(117, 176);
+            this.txt_address.Location = new System.Drawing.Point(122, 221);
             this.txt_address.Name = "txt_address";
             this.txt_address.Size = new System.Drawing.Size(441, 20);
             this.txt_address.TabIndex = 13;
@@ -221,7 +217,7 @@
             this.lbl_contactnum.AutoSize = true;
             this.lbl_contactnum.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_contactnum.ForeColor = System.Drawing.Color.Transparent;
-            this.lbl_contactnum.Location = new System.Drawing.Point(113, 210);
+            this.lbl_contactnum.Location = new System.Drawing.Point(113, 301);
             this.lbl_contactnum.Name = "lbl_contactnum";
             this.lbl_contactnum.Size = new System.Drawing.Size(141, 22);
             this.lbl_contactnum.TabIndex = 14;
@@ -233,7 +229,7 @@
             this.lbl_email.AutoSize = true;
             this.lbl_email.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_email.ForeColor = System.Drawing.Color.Transparent;
-            this.lbl_email.Location = new System.Drawing.Point(199, 236);
+            this.lbl_email.Location = new System.Drawing.Point(199, 323);
             this.lbl_email.Name = "lbl_email";
             this.lbl_email.Size = new System.Drawing.Size(55, 22);
             this.lbl_email.TabIndex = 15;
@@ -242,7 +238,7 @@
             // txt_contactnum
             // 
             this.txt_contactnum.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txt_contactnum.Location = new System.Drawing.Point(260, 213);
+            this.txt_contactnum.Location = new System.Drawing.Point(260, 300);
             this.txt_contactnum.Name = "txt_contactnum";
             this.txt_contactnum.Size = new System.Drawing.Size(139, 20);
             this.txt_contactnum.TabIndex = 16;
@@ -253,7 +249,7 @@
             // txt_email
             // 
             this.txt_email.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txt_email.Location = new System.Drawing.Point(260, 239);
+            this.txt_email.Location = new System.Drawing.Point(260, 326);
             this.txt_email.Name = "txt_email";
             this.txt_email.Size = new System.Drawing.Size(165, 20);
             this.txt_email.TabIndex = 17;
@@ -285,7 +281,7 @@
             // txt_checkin
             // 
             this.txt_checkin.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txt_checkin.Location = new System.Drawing.Point(169, 279);
+            this.txt_checkin.Location = new System.Drawing.Point(169, 382);
             this.txt_checkin.Name = "txt_checkin";
             this.txt_checkin.Size = new System.Drawing.Size(102, 20);
             this.txt_checkin.TabIndex = 20;
@@ -296,7 +292,7 @@
             // txt_checkout
             // 
             this.txt_checkout.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txt_checkout.Location = new System.Drawing.Point(455, 279);
+            this.txt_checkout.Location = new System.Drawing.Point(456, 379);
             this.txt_checkout.Name = "txt_checkout";
             this.txt_checkout.Size = new System.Drawing.Size(102, 20);
             this.txt_checkout.TabIndex = 21;
@@ -309,7 +305,7 @@
             this.lbl_checkin.AutoSize = true;
             this.lbl_checkin.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_checkin.ForeColor = System.Drawing.Color.Transparent;
-            this.lbl_checkin.Location = new System.Drawing.Point(36, 276);
+            this.lbl_checkin.Location = new System.Drawing.Point(36, 379);
             this.lbl_checkin.Name = "lbl_checkin";
             this.lbl_checkin.Size = new System.Drawing.Size(127, 22);
             this.lbl_checkin.TabIndex = 22;
@@ -320,81 +316,36 @@
             this.lbl_checkout.AutoSize = true;
             this.lbl_checkout.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_checkout.ForeColor = System.Drawing.Color.Transparent;
-            this.lbl_checkout.Location = new System.Drawing.Point(308, 279);
+            this.lbl_checkout.Location = new System.Drawing.Point(310, 379);
             this.lbl_checkout.Name = "lbl_checkout";
             this.lbl_checkout.Size = new System.Drawing.Size(141, 22);
             this.lbl_checkout.TabIndex = 23;
             this.lbl_checkout.Text = "Time Check Out";
             // 
-            // webcam
+            // timer
             // 
-            this.webcam.FormattingEnabled = true;
-            this.webcam.Location = new System.Drawing.Point(132, 353);
-            this.webcam.Name = "webcam";
-            this.webcam.Size = new System.Drawing.Size(176, 21);
-            this.webcam.TabIndex = 24;
+            this.timer.Interval = 1000;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
-            // lbl_scan
+            // button1
             // 
-            this.lbl_scan.AutoSize = true;
-            this.lbl_scan.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_scan.ForeColor = System.Drawing.Color.Transparent;
-            this.lbl_scan.Location = new System.Drawing.Point(8, 425);
-            this.lbl_scan.Name = "lbl_scan";
-            this.lbl_scan.Size = new System.Drawing.Size(118, 22);
-            this.lbl_scan.TabIndex = 25;
-            this.lbl_scan.Text = "Scan QR code";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.pictureBox1.Location = new System.Drawing.Point(132, 380);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(176, 148);
-            this.pictureBox1.TabIndex = 26;
-            this.pictureBox1.TabStop = false;
-            // 
-            // lbl_webcam
-            // 
-            this.lbl_webcam.AutoSize = true;
-            this.lbl_webcam.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_webcam.ForeColor = System.Drawing.Color.Transparent;
-            this.lbl_webcam.Location = new System.Drawing.Point(47, 350);
-            this.lbl_webcam.Name = "lbl_webcam";
-            this.lbl_webcam.Size = new System.Drawing.Size(79, 22);
-            this.lbl_webcam.TabIndex = 27;
-            this.lbl_webcam.Text = "Webcam";
-            // 
-            // txt_display
-            // 
-            this.txt_display.Location = new System.Drawing.Point(314, 392);
-            this.txt_display.Name = "txt_display";
-            this.txt_display.Size = new System.Drawing.Size(299, 20);
-            this.txt_display.TabIndex = 28;
-            this.txt_display.TextChanged += new System.EventHandler(this.txt_display_TextChanged);
-            // 
-            // lbl_display
-            // 
-            this.lbl_display.AutoSize = true;
-            this.lbl_display.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_display.ForeColor = System.Drawing.Color.Transparent;
-            this.lbl_display.Location = new System.Drawing.Point(314, 367);
-            this.lbl_display.Name = "lbl_display";
-            this.lbl_display.Size = new System.Drawing.Size(70, 22);
-            this.lbl_display.TabIndex = 29;
-            this.lbl_display.Text = "Display";
+            this.button1.BackColor = System.Drawing.Color.Plum;
+            this.button1.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Transparent;
+            this.button1.Location = new System.Drawing.Point(413, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(172, 43);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "QR Code Scan";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_2);
             // 
             // personall
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(144)))), ((int)(((byte)(200)))));
-            this.Controls.Add(this.lbl_display);
-            this.Controls.Add(this.txt_display);
-            this.Controls.Add(this.lbl_webcam);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.lbl_scan);
-            this.Controls.Add(this.webcam);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lbl_checkout);
             this.Controls.Add(this.lbl_checkin);
             this.Controls.Add(this.txt_checkout);
@@ -421,7 +372,7 @@
             this.Controls.Add(this.lbl_firstname);
             this.Name = "personall";
             this.Size = new System.Drawing.Size(631, 541);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Load += new System.EventHandler(this.personall_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -453,11 +404,7 @@
         private System.Windows.Forms.TextBox txt_checkout;
         private System.Windows.Forms.Label lbl_checkin;
         private System.Windows.Forms.Label lbl_checkout;
-        private System.Windows.Forms.ComboBox webcam;
-        private System.Windows.Forms.Label lbl_scan;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label lbl_webcam;
-        private System.Windows.Forms.TextBox txt_display;
-        private System.Windows.Forms.Label lbl_display;
+        private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.Button button1;
     }
 }
