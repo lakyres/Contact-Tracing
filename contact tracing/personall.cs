@@ -278,5 +278,10 @@ namespace contact_tracing
                 txt_checkout.ForeColor = Color.Silver;
             }
         }
+
+        private void txt_display_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

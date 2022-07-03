@@ -41,6 +41,7 @@
             this.checktime1 = new contact_tracing.checktime();
             this.personall1 = new contact_tracing.personall();
             this.adminonly1 = new contact_tracing.adminonly();
+            this.personall2 = new contact_tracing.personall();
             this.menu.SuspendLayout();
             this.menu_top.SuspendLayout();
             this.SuspendLayout();
@@ -166,7 +167,7 @@
             this.symptoms1.BackColor = System.Drawing.Color.MediumPurple;
             this.symptoms1.Location = new System.Drawing.Point(0, 24);
             this.symptoms1.Name = "symptoms1";
-            this.symptoms1.Size = new System.Drawing.Size(644, 544);
+            this.symptoms1.Size = new System.Drawing.Size(644, 532);
             this.symptoms1.TabIndex = 4;
             // 
             // checktime1
@@ -174,7 +175,7 @@
             this.checktime1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(114)))), ((int)(((byte)(190)))));
             this.checktime1.Location = new System.Drawing.Point(0, 24);
             this.checktime1.Name = "checktime1";
-            this.checktime1.Size = new System.Drawing.Size(644, 544);
+            this.checktime1.Size = new System.Drawing.Size(644, 532);
             this.checktime1.TabIndex = 8;
             // 
             // personall1
@@ -195,6 +196,14 @@
             this.adminonly1.Size = new System.Drawing.Size(644, 544);
             this.adminonly1.TabIndex = 9;
             // 
+            // personall2
+            // 
+            this.personall2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(144)))), ((int)(((byte)(200)))));
+            this.personall2.Location = new System.Drawing.Point(0, 24);
+            this.personall2.Name = "personall2";
+            this.personall2.Size = new System.Drawing.Size(644, 544);
+            this.personall2.TabIndex = 10;
+            // 
             // contraceform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -207,6 +216,7 @@
             this.Controls.Add(this.checktime1);
             this.Controls.Add(this.personall1);
             this.Controls.Add(this.adminonly1);
+            this.Controls.Add(this.personall2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "contraceform";
             this.Text = "Digital Contact Tracing";
@@ -231,6 +241,7 @@
         private personall personall1;
         private checktime checktime1;
         private adminonly adminonly1;
+        private personall personall2;
     }
 }
 

@@ -266,7 +266,7 @@
             this.btn_submit.BackColor = System.Drawing.Color.Thistle;
             this.btn_submit.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_submit.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_submit.Location = new System.Drawing.Point(512, 441);
+            this.btn_submit.Location = new System.Drawing.Point(498, 466);
             this.btn_submit.Name = "btn_submit";
             this.btn_submit.Size = new System.Drawing.Size(101, 43);
             this.btn_submit.TabIndex = 18;
@@ -329,9 +329,9 @@
             // webcam
             // 
             this.webcam.FormattingEnabled = true;
-            this.webcam.Location = new System.Drawing.Point(129, 333);
+            this.webcam.Location = new System.Drawing.Point(132, 353);
             this.webcam.Name = "webcam";
-            this.webcam.Size = new System.Drawing.Size(162, 21);
+            this.webcam.Size = new System.Drawing.Size(176, 21);
             this.webcam.TabIndex = 24;
             // 
             // lbl_scan
@@ -339,7 +339,7 @@
             this.lbl_scan.AutoSize = true;
             this.lbl_scan.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_scan.ForeColor = System.Drawing.Color.Transparent;
-            this.lbl_scan.Location = new System.Drawing.Point(23, 401);
+            this.lbl_scan.Location = new System.Drawing.Point(8, 425);
             this.lbl_scan.Name = "lbl_scan";
             this.lbl_scan.Size = new System.Drawing.Size(118, 22);
             this.lbl_scan.TabIndex = 25;
@@ -348,9 +348,9 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.pictureBox1.Location = new System.Drawing.Point(147, 360);
+            this.pictureBox1.Location = new System.Drawing.Point(132, 380);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(144, 126);
+            this.pictureBox1.Size = new System.Drawing.Size(176, 148);
             this.pictureBox1.TabIndex = 26;
             this.pictureBox1.TabStop = false;
             // 
@@ -359,7 +359,7 @@
             this.lbl_webcam.AutoSize = true;
             this.lbl_webcam.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_webcam.ForeColor = System.Drawing.Color.Transparent;
-            this.lbl_webcam.Location = new System.Drawing.Point(47, 333);
+            this.lbl_webcam.Location = new System.Drawing.Point(47, 350);
             this.lbl_webcam.Name = "lbl_webcam";
             this.lbl_webcam.Size = new System.Drawing.Size(79, 22);
             this.lbl_webcam.TabIndex = 27;
@@ -367,17 +367,18 @@
             // 
             // txt_display
             // 
-            this.txt_display.Location = new System.Drawing.Point(297, 392);
+            this.txt_display.Location = new System.Drawing.Point(314, 392);
             this.txt_display.Name = "txt_display";
-            this.txt_display.Size = new System.Drawing.Size(209, 20);
+            this.txt_display.Size = new System.Drawing.Size(299, 20);
             this.txt_display.TabIndex = 28;
+            this.txt_display.TextChanged += new System.EventHandler(this.txt_display_TextChanged);
             // 
             // lbl_display
             // 
             this.lbl_display.AutoSize = true;
             this.lbl_display.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_display.ForeColor = System.Drawing.Color.Transparent;
-            this.lbl_display.Location = new System.Drawing.Point(365, 367);
+            this.lbl_display.Location = new System.Drawing.Point(314, 367);
             this.lbl_display.Name = "lbl_display";
             this.lbl_display.Size = new System.Drawing.Size(70, 22);
             this.lbl_display.TabIndex = 29;
@@ -419,7 +420,7 @@
             this.Controls.Add(this.lbl_lastname);
             this.Controls.Add(this.lbl_firstname);
             this.Name = "personall";
-            this.Size = new System.Drawing.Size(631, 503);
+            this.Size = new System.Drawing.Size(631, 541);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
