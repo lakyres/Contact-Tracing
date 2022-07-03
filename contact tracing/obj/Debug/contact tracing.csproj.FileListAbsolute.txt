@@ -77,3 +77,14 @@ C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debu
 C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact tracing.csproj.CoreCompileInputs.cache
 C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact tracing.exe
 C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact tracing.pdb
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\bin\Debug\AForge.dll
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\bin\Debug\AForge.Video.dll
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\bin\Debug\zxing.dll
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\bin\Debug\zxing.presentation.dll
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\bin\Debug\AForge.xml
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\bin\Debug\AForge.Video.xml
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\bin\Debug\zxing.xml
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\bin\Debug\zxing.presentation.xml
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact tracing.csproj.CopyComplete
