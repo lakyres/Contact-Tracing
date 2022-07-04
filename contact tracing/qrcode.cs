@@ -69,16 +69,18 @@ namespace contact_tracing
 
         private void btn_submit_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing legit totoo\records\" + date.Text + ".txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing legit totoo\records\" + date2.Text + ".txt", true);
             file.WriteLine("");
             file.WriteLine("Personal Information");
             file.WriteLine(txt_display.Text);
-            file.WriteLine("Date: " + date.Text);
+            file.WriteLine("Date: " + date2.Text);
 
             file.Close();
 
             MessageBox.Show("Thank you. Be careful and take care!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
             MessageBox.Show("Stay Safe. Ingat!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
         }
     }
 }

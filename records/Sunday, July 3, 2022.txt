@@ -1,6 +1,0 @@
-
-Personal Information
-System.Windows.Forms.TextBox, Text: 
-kyla marjes
-
-Date: Sunday, July 3, 2022

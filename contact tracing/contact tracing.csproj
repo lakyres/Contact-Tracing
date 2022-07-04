@@ -85,6 +85,12 @@
     <Compile Include="checktime.Designer.cs">
       <DependentUpon>checktime.cs</DependentUpon>
     </Compile>
+    <Compile Include="contacttracing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contacttracing.Designer.cs">
+      <DependentUpon>contacttracing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="checktime.resx">
       <DependentUpon>checktime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contacttracing.resx">
+      <DependentUpon>contacttracing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

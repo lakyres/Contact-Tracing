@@ -89,3 +89,4 @@ C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\bin\Debu
 C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\bin\Debug\zxing.presentation.xml
 C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact tracing.csproj.CopyComplete
 C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact_tracing.qrcodescanner.resources
+C:\Users\angel\source\repos\contact tracing legit totoo\contact tracing\obj\Debug\contact_tracing.contacttracing.resources

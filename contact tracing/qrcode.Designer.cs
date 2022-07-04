@@ -38,7 +38,7 @@
             this.btn_scan = new System.Windows.Forms.Button();
             this.btn_submit = new System.Windows.Forms.Button();
             this.timer = new System.Windows.Forms.Timer(this.components);
-            this.date = new System.Windows.Forms.DateTimePicker();
+            this.date2 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.camera)).BeginInit();
             this.SuspendLayout();
             // 
@@ -133,21 +133,21 @@
             this.timer.Interval = 1000;
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
-            // date
+            // date2
             // 
-            this.date.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.date.Location = new System.Drawing.Point(538, 12);
-            this.date.Name = "date";
-            this.date.Size = new System.Drawing.Size(236, 24);
-            this.date.TabIndex = 36;
+            this.date2.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date2.Location = new System.Drawing.Point(483, 12);
+            this.date2.Name = "date2";
+            this.date2.Size = new System.Drawing.Size(236, 24);
+            this.date2.TabIndex = 36;
             // 
             // qrcodescanner
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumOrchid;
-            this.ClientSize = new System.Drawing.Size(817, 551);
-            this.Controls.Add(this.date);
+            this.ClientSize = new System.Drawing.Size(725, 551);
+            this.Controls.Add(this.date2);
             this.Controls.Add(this.btn_submit);
             this.Controls.Add(this.btn_scan);
             this.Controls.Add(this.txt_display);
@@ -177,6 +177,6 @@
         private System.Windows.Forms.Button btn_scan;
         private System.Windows.Forms.Button btn_submit;
         private System.Windows.Forms.Timer timer;
-        private System.Windows.Forms.DateTimePicker date;
+        private System.Windows.Forms.DateTimePicker date2;
     }
 }
