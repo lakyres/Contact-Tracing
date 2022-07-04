@@ -25,26 +25,14 @@ namespace contact_tracing
         FilterInfoCollection filter;
         VideoCaptureDevice captureDevice;
 
-        private void qrcodescanner_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btn_scan_Click(object sender, EventArgs e)
-        {
-            
-        }
+       
 
         private void CaptureDevie_NewFrame(object sender, NewFrameEventArgs eventArgs)
         {
             camera.Image = (Bitmap)eventArgs.Frame.Clone();
         }
 
-        private void qrcodescanner_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (captureDevice.IsRunning)
-                captureDevice.Stop();
-        }
+       
 
         private void timer_Tick(object sender, EventArgs e)
         {
@@ -62,21 +50,7 @@ namespace contact_tracing
             }
         }
 
-        private void btn_submit_Click(object sender, EventArgs e)
-        {
-            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing legit totoo\records\" + date.Text + ".txt", true);
-            file.WriteLine("");
-            file.WriteLine("Personal Information");
-            file.WriteLine(txt_display.Text);
-            file.WriteLine("Date: " + date.Text);
-
-            file.Close();
-
-            MessageBox.Show("Thank you. Be careful and take care!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            MessageBox.Show("Stay Safe. Ingat!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-
-        }
+      
 
         private void txt_firstname_Enter(object sender, EventArgs e)
         {
@@ -426,17 +400,24 @@ namespace contact_tracing
 
         private void btn_submit2_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\angel\source\repos\contact tracing legit totoo\records\" + date.Text + ".txt", true);
-            file.WriteLine("");
-            file.WriteLine("Personal Information");
-            file.WriteLine(txt_display.Text);
-            file.WriteLine("");
-            file.WriteLine("Date: " + date.Text);
-
-            file.Close();
+            
 
             MessageBox.Show("Thank you. Be careful and take care!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
             MessageBox.Show("Stay Safe. Ingat!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            string qrcoderec = txt_display.Text;
+            string[] str = qrcoderec.Split(',');
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (str[i].Contains("First Name:"))
+                {
+                    txt_firstname.Text = str[i].Trim().Substring(12, str[i].Trim().Length - 12);
+                }
+                else if (str[i].Contains("Last Name:"))
+                {
+                    txt_lastname.Text = str[i].Trim().Substring(5, str[i].Trim().Length - 5);
+                }
+            }
         }
     }
 
