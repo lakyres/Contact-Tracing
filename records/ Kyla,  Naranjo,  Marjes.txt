@@ -1,0 +1,14 @@
+
+Personal Information
+
+First Name:  Kyla
+Middle Name:  Naranjo
+Last Name:  Marjes
+Date of Birth: mm/dd/yyyy
+Age: Age
+Sex: Sex
+Address: House no./Street/Barangay/Town/City/Province/Country/Zip Code
+Contact: Contact Number
+Email: you@email.com
+
+Date: Monday, July 4, 2022

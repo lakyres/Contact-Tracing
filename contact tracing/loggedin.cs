@@ -58,6 +58,7 @@ namespace contact_tracing
                     file.WriteLine(content);
                 }
                 file.Close();
+
                 MessageBox.Show("The system found " + resultdate  + " record(s) on the date selected");
                 MessageBox.Show("All record(s) for this date will be shown");
                 if (MessageBox.Show("Are you sure?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)

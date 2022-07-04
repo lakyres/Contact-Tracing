@@ -405,24 +405,11 @@ namespace contact_tracing
             MessageBox.Show("Thank you. Be careful and take care!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
             MessageBox.Show("Stay Safe. Ingat!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            string qrcoderec = txt_display.Text;
-            string[] str = qrcoderec.Split(',');
-            for (int i = 0; i < str.Length; i++)
-            {
-                if (str[i].Contains("First Name:"))
-                {
-                    txt_firstname.Text = str[i].Trim().Substring(12, str[i].Trim().Length - 12);
-
-
-                }
-
-                else if (str[i].Contains("Middle Name:"))
-                {
-                    txt_middlename.Text = str[i].Trim().Substring(13, str[i].Trim().Length - 13);
-
-
-                }
-            }
+            string myString = txt_display.Text;
+            string[] str = myString.Split(',');
+            txt_firstname.Text = str[0].Substring(str[0].IndexOf(':') + 1);
+            txt_middlename.Text = str[1].Substring(str[1].IndexOf(':') + 1);
+            txt_lastname.Text = str[2].Substring(str[2].IndexOf(':') + 1);
         }
     }
 

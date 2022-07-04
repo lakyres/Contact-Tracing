@@ -346,6 +346,7 @@
             // 
             // txt_display
             // 
+            this.txt_display.BackColor = System.Drawing.SystemColors.Info;
             this.txt_display.Location = new System.Drawing.Point(726, 328);
             this.txt_display.Multiline = true;
             this.txt_display.Name = "txt_display";
