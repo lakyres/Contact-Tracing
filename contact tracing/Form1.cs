@@ -32,9 +32,9 @@ namespace contact_tracing
 
         private void menu_btn1_Click(object sender, EventArgs e)
         {
-            checktime1.Hide();
+            
             about1.Hide();
-            symptoms1.Hide();
+            
             adminonly1.Hide();
             personall1.Show();
             personall1.BringToFront();
@@ -45,27 +45,9 @@ namespace contact_tracing
 
         }
 
-        private void menu_btn2_Click(object sender, EventArgs e)
-        {
-            personall1.Hide();
-            checktime1.Hide();
-            about1.Hide();
-            adminonly1.Hide();
-            symptoms1.Show();
-            symptoms1.BringToFront();
+      
 
-        }
-
-        private void menu_btn3_Click(object sender, EventArgs e)
-        {
-            personall1.Hide();
-            symptoms1.Hide();
-            about1.Hide();
-            adminonly1.Hide();
-            checktime1.Show();
-            checktime1.BringToFront();
-
-        }
+       
 
         private void btn_x_Click(object sender, EventArgs e)
         {
@@ -75,8 +57,7 @@ namespace contact_tracing
         private void button1_Click_1(object sender, EventArgs e)
         {
             personall1.Hide();
-            symptoms1.Hide();
-            checktime1.Hide();
+           
             adminonly1.Hide();
             about1.Show();
             about1.BringToFront();
@@ -84,9 +65,9 @@ namespace contact_tracing
 
         private void admin_btn5_Click(object sender, EventArgs e)
         {
-            symptoms1.Hide();
+            
             personall1.Hide();
-            symptoms1.Hide();
+            
             about1.Hide();
             adminonly1.Show();
             adminonly1.BringToFront();

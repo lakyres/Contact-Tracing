@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.button1 = new System.Windows.Forms.Button();
             this.date = new System.Windows.Forms.DateTimePicker();
             this.btn_submit = new System.Windows.Forms.Button();
             this.txt_email = new System.Windows.Forms.TextBox();
@@ -61,19 +60,6 @@
             this.lbl_webcam = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.camera)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Plum;
-            this.button1.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(412, 55);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(172, 43);
-            this.button1.TabIndex = 49;
-            this.button1.Text = "QR Code Scan";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // date
             // 
@@ -350,6 +336,7 @@
             this.txt_display.Location = new System.Drawing.Point(726, 328);
             this.txt_display.Multiline = true;
             this.txt_display.Name = "txt_display";
+            this.txt_display.ReadOnly = true;
             this.txt_display.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txt_display.Size = new System.Drawing.Size(434, 229);
             this.txt_display.TabIndex = 55;
@@ -419,7 +406,6 @@
             this.Controls.Add(this.lbl_scan);
             this.Controls.Add(this.webcam);
             this.Controls.Add(this.lbl_webcam);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.date);
             this.Controls.Add(this.btn_submit);
             this.Controls.Add(this.txt_email);
@@ -451,8 +437,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DateTimePicker date;
         private System.Windows.Forms.Button btn_submit;
         private System.Windows.Forms.TextBox txt_email;

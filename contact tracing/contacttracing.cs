@@ -410,6 +410,12 @@ namespace contact_tracing
             txt_firstname.Text = str[0].Substring(str[0].IndexOf(':') + 1);
             txt_middlename.Text = str[1].Substring(str[1].IndexOf(':') + 1);
             txt_lastname.Text = str[2].Substring(str[2].IndexOf(':') + 1);
+            txt_birthdate.Text = str[3].Substring(str[3].IndexOf(':') + 1);
+            txt_age.Text = str[4].Substring(str[4].IndexOf(':') + 1);
+            txt_sex.Text = str[5].Substring(str[5].IndexOf(':') + 1);
+            txt_address.Text = str[6].Substring(str[6].IndexOf(':') + 1);
+            txt_contactnum.Text = str[7].Substring(str[7].IndexOf(':') + 1);
+            txt_email.Text = str[8].Substring(str[8].IndexOf(':') + 1);
         }
     }
 

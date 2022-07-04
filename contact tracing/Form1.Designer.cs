@@ -37,8 +37,6 @@
             this.menu_top = new System.Windows.Forms.Panel();
             this.btn_x = new System.Windows.Forms.Button();
             this.about1 = new contact_tracing.about();
-            this.symptoms1 = new contact_tracing.symptoms();
-            this.checktime1 = new contact_tracing.checktime();
             this.personall1 = new contact_tracing.personall();
             this.adminonly1 = new contact_tracing.adminonly();
             this.personall2 = new contact_tracing.personall();
@@ -162,22 +160,6 @@
             this.about1.Size = new System.Drawing.Size(644, 544);
             this.about1.TabIndex = 5;
             // 
-            // symptoms1
-            // 
-            this.symptoms1.BackColor = System.Drawing.Color.MediumPurple;
-            this.symptoms1.Location = new System.Drawing.Point(0, 24);
-            this.symptoms1.Name = "symptoms1";
-            this.symptoms1.Size = new System.Drawing.Size(644, 532);
-            this.symptoms1.TabIndex = 4;
-            // 
-            // checktime1
-            // 
-            this.checktime1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(114)))), ((int)(((byte)(190)))));
-            this.checktime1.Location = new System.Drawing.Point(0, 24);
-            this.checktime1.Name = "checktime1";
-            this.checktime1.Size = new System.Drawing.Size(644, 532);
-            this.checktime1.TabIndex = 8;
-            // 
             // personall1
             // 
             this.personall1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(144)))), ((int)(((byte)(200)))));
@@ -211,12 +193,10 @@
             this.ClientSize = new System.Drawing.Size(874, 568);
             this.Controls.Add(this.menu_top);
             this.Controls.Add(this.menu);
+            this.Controls.Add(this.personall2);
             this.Controls.Add(this.about1);
-            this.Controls.Add(this.symptoms1);
-            this.Controls.Add(this.checktime1);
             this.Controls.Add(this.personall1);
             this.Controls.Add(this.adminonly1);
-            this.Controls.Add(this.personall2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "contraceform";
             this.Text = "Digital Contact Tracing";
@@ -234,12 +214,10 @@
         private System.Windows.Forms.Panel menu_logo;
         private System.Windows.Forms.Panel menu_top;
         private System.Windows.Forms.Button btn_x;
-        private symptoms symptoms1;
         private System.Windows.Forms.Button menu_btn4;
         private about about1;
         private System.Windows.Forms.Button admin_btn5;
         private personall personall1;
-        private checktime checktime1;
         private adminonly adminonly1;
         private personall personall2;
     }
