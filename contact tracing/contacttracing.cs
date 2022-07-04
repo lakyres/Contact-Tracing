@@ -400,7 +400,7 @@ namespace contact_tracing
 
         private void btn_submit2_Click(object sender, EventArgs e)
         {
-            
+
 
             MessageBox.Show("Thank you. Be careful and take care!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
             MessageBox.Show("Stay Safe. Ingat!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -412,10 +412,15 @@ namespace contact_tracing
                 if (str[i].Contains("First Name:"))
                 {
                     txt_firstname.Text = str[i].Trim().Substring(12, str[i].Trim().Length - 12);
+
+
                 }
-                else if (str[i].Contains("Last Name:"))
+
+                else if (str[i].Contains("Middle Name:"))
                 {
-                    txt_lastname.Text = str[i].Trim().Substring(5, str[i].Trim().Length - 5);
+                    txt_middlename.Text = str[i].Trim().Substring(13, str[i].Trim().Length - 13);
+
+
                 }
             }
         }
